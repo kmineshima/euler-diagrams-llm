@@ -1,55 +1,88 @@
 # euler-diagrams-llm
-Evaluating the logical reasoning capabilities of large language models using Euler diagrams
 
+_Evaluating the logical reasoning capabilities of large language models using Euler diagrams_
 
-Datasets and scripts for the Diagrams2024 paper: "Can Euler Diagrams Improve Syllogistic Reasoning in LLMs?"
+Datasets and scripts for the DIAGRAMS2024 paper: "Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?"
 
-<!-- ## Contents -->
+## Contents
 
-<!-- - [Datasets](#datasets)
-  - [NLI (Natural Language Inference) Task Format](#nli-natural-language-inference-task-format)
+- [Contents](#contents)
+- [Datasets](#datasets)
+  - [Euler Diagram Images](#euler-diagram-images)
+  - [Validity Checking Task Format](#validity-checking-task-format)
   - [Multiple-Choice Task Format](#multiple-choice-task-format)
-  - [Data used in the NALOMA2023 experiments](#data-used-in-the-naloma2023-experiments)
-- [Running scripts](#running-scripts)
-- [Citation](#citation) -->
+- [Citation](#citation)
 
-<!-- ## Datasets
+## Datasets
 
-### NLI (Natural Language Inference) Task Format
+### Euler Diagram Images
+
+#### Files
+
+[`data/images/*.png`](https://github.com/kmineshima/euler-diagrams-llm/tree/main/data/images/)
+
+#### Description
+
+Images of Euler diagrams representing premises of syllogistic reasoning problems.
+
+### Validity Checking Task Format
 
 #### File
 
+[`data/EulerDiagramSynth_VC285.tsv`](https://github.com/kmineshima/euler-diagrams-llm/blob/main/data/EulerDiagramSynth_VC285.tsv)
 
+#### Description
+
+| Column Name | Description |
+| ---- | ---- |
+| premises_en | two premises in English |
+| hypothesis_en | one hypothesis in English |
+| gold | correct answer, the relationship of the hypothesis to the premises (*entailment*, *contradiction*, *neutral*) |
+| content-type | classification based on belief congruency (*symbolic*, *congruent*, *incongruent*) |
+| conversion | associated with conversion error (*yes*, *no*) |
+| conversion-type | the type of conversion error (*A*, *O*, *n/a*) |
+| mood | the form of each premise and conclusion (three letters composed of A, E, I and O) |
+| figure | code for the order in which each term appears (1-4) |
+| image_id | image ID of Euler diagram |
+| image_path | image path of Euler diagram (see [Euler Diagram Images](#euler-diagram-images)) |
+| term1 | term 1 used in the syllogism |
+| term2 | term 2 used in the syllogism |
+| term3 | term 3 used in the syllogism |
+
+- See [our paper](#citation) for details.
+
+### Multiple-Choice Task Format
+
+#### File
+
+[`data/EulerDiagramSynth_MC194.tsv`](https://github.com/kmineshima/euler-diagrams-llm/blob/main/data/EulerDiagramSynth_MC194.tsv)
 
 #### Description
 
 | Column Name | Description |
 | ---- | ---- |
 | ID | problem ID |
-| ORIGINAL_ID | (INTERNAL) original problem ID |
-| premises_ja | two premises in Japanese |
-| hypothesis_ja | one hypothesis in Japanese |
 | premises_en | two premises in English |
-| hypothesis_en | one hypothesis in English |
-| gold | correct answer, the relationship of the hypothesis to the premises (*entailment*, *contradiction*, *neutral*) |
-| mood | the form of each premise and conclusion (three letters composed of A, E, I and O) |
-| inference-type | type of logical inferences (*syllogism*, *propositional*) |
-| content-type | classification based on belief congruency (*symbolic*, *congruent*, *incongruent*) |
+| hypothesis_en_1 | hypothesis 1 in English |
+| hypothesis_en_2 | hypothesis 2 in English |
+| hypothesis_en_3 | hypothesis 3 in English |
+| hypothesis_en_4 | hypothesis 4 in English |
+| hypothesis_en_5 | hypothesis 5 in English |
+| mood_premises | the form of each premise (two letters composed of A, E, I and O) |
+| figure | code for the order in which each term appears (1-4) |
+| has-conclusion | whether the problem has a valid conclusion (*yes*, *no*) |
+| gold | correct answer (1-5) |
+| content-type | classification based on belief congruency (*symbolic*, *contentual*, *congruent*, *incongruent*) |
 | conversion | associated with conversion error (*yes*, *no*) |
-| atmosphere | associated with atmosphere effect (*yes*, *no*) |
+| conversion-type | the type of conversion error (*A*, *O*, *n/a*) |
+| image_id | image ID of Euler diagram |
+| image_path | image path of Euler diagram (see [Euler Diagram Images](#euler-diagram-images)) |
+| term1 | term 1 used in the syllogism |
+| term2 | term 2 used in the syllogism |
+| term3 | term 3 used in the syllogism |
 
-- See [our paper](#citation) for details on content-type, inference-type, conversion, and atmosphere.
-
-
-### Multiple-Choice Task Format
-
-
-
--->
+- **NOTE:** One of the five hypotheses is "none of them".
 
 ## Citation
 
-Risako Ando, Kentaro Ozeki, Takanobu Morishita, Hirohiko Abe,
-Koji Mineshima, and Mitsuhiro Okada,
-"Can Euler Diagrams Improve Syllogistic Reasoning in LLMs?",
-To appear in *Proceedings of 14th International Conference on the Theory and Application of Diagrams* (DIAGRAMS 2024), Lecture Notes in Artificial Intelligence (LNAI), Springer, 2024.
+Risako Ando, Kentaro Ozeki, Takanobu Morishita, Hirohiko Abe, Koji Mineshima, and Mitsuhiro Okada, "Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?", To appear in *Proceedings of 14th International Conference on the Theory and Application of Diagrams* (DIAGRAMS 2024), Lecture Notes in Artificial Intelligence (LNAI), Springer, 2024.

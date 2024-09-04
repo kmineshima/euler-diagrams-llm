@@ -1,0 +1,286 @@
+premises_en	hypothesis_en	gold	content-type	conversion	conversion-type	mood	figure	image_id	image_path	term1	term2	term3
+All A are B. No B are C.	Some C are A.	contradiction	symbolic	no	n/a	AEI	4	euler_1_AE4	images/euler_1_AE4.png	A	B	C
+No A are B. Some B are C.	All C are A.	contradiction	symbolic	no	n/a	EIA	4	euler_1_EI4	images/euler_1_EI4.png	A	B	C
+All B are A. All C are B.	Some C are not A.	contradiction	symbolic	no	n/a	AAO	1	euler_1_AA1	images/euler_1_AA1.png	A	B	C
+No A are B. All C are B.	Some C are A.	contradiction	symbolic	no	n/a	EAI	2	euler_1_EA2	images/euler_1_EA2.png	A	B	C
+Some B are A. All B are C.	No C are A.	contradiction	symbolic	no	n/a	IAE	3	euler_1_IA3	images/euler_1_IA3.png	A	B	C
+No B are A. Some B are C.	All C are A.	contradiction	symbolic	no	n/a	EIA	3	euler_1_EI3	images/euler_1_EI3.png	A	B	C
+All B are A. Some B are C.	No C are A.	contradiction	symbolic	no	n/a	AIE	3	euler_1_AI3	images/euler_1_AI3.png	A	B	C
+All A are B. Some C are not B.	All C are A.	contradiction	symbolic	no	n/a	AOA	2	euler_1_AO2	images/euler_1_AO2.png	A	B	C
+All A are B. No C are B.	Some C are A.	contradiction	symbolic	no	n/a	AEI	2	euler_1_AE2	images/euler_1_AE2.png	A	B	C
+Some B are not A. All B are C.	All C are A.	contradiction	symbolic	no	n/a	OAA	3	euler_1_OA3	images/euler_1_OA3.png	A	B	C
+No B are A. Some C are B.	All C are A.	contradiction	symbolic	no	n/a	EIA	1	euler_1_EI1	images/euler_1_EI1.png	A	B	C
+Some A are B. All B are C.	No C are A.	contradiction	symbolic	no	n/a	IAE	4	euler_1_IA4	images/euler_1_IA4.png	A	B	C
+No B are A. All C are B.	Some C are A.	contradiction	symbolic	no	n/a	EAI	1	euler_1_EA1	images/euler_1_EA1.png	A	B	C
+All B are A. Some C are B.	No C are A.	contradiction	symbolic	no	n/a	AIE	1	euler_1_AI1	images/euler_1_AI1.png	A	B	C
+No A are B. Some C are B.	All C are A.	contradiction	symbolic	no	n/a	EIA	2	euler_1_EI2	images/euler_1_EI2.png	A	B	C
+All A are B. Some C are not B.	Some C are not A.	entailment	symbolic	no	n/a	AOO	2	euler_1_AO2	images/euler_1_AO2.png	A	B	C
+Some B are A. All B are C.	Some C are A.	entailment	symbolic	no	n/a	IAI	3	euler_1_IA3	images/euler_1_IA3.png	A	B	C
+No A are B. Some B are C.	Some C are not A.	entailment	symbolic	no	n/a	EIO	4	euler_1_EI4	images/euler_1_EI4.png	A	B	C
+All B are A. Some B are C.	Some C are A.	entailment	symbolic	no	n/a	AII	3	euler_1_AI3	images/euler_1_AI3.png	A	B	C
+Some B are not A. All B are C.	Some C are not A.	entailment	symbolic	no	n/a	OAO	3	euler_1_OA3	images/euler_1_OA3.png	A	B	C
+No B are A. Some C are B.	Some C are not A.	entailment	symbolic	no	n/a	EIO	1	euler_1_EI1	images/euler_1_EI1.png	A	B	C
+All A are B. No C are B.	No C are A.	entailment	symbolic	no	n/a	AEE	2	euler_1_AE2	images/euler_1_AE2.png	A	B	C
+No B are A. Some B are C.	Some C are not A.	entailment	symbolic	no	n/a	EIO	3	euler_1_EI3	images/euler_1_EI3.png	A	B	C
+No B are A. All C are B.	No C are A.	entailment	symbolic	no	n/a	EAE	1	euler_1_EA1	images/euler_1_EA1.png	A	B	C
+All A are B. No B are C.	No C are A.	entailment	symbolic	no	n/a	AEE	4	euler_1_AE4	images/euler_1_AE4.png	A	B	C
+No A are B. All C are B.	No C are A.	entailment	symbolic	no	n/a	EAE	2	euler_1_EA2	images/euler_1_EA2.png	A	B	C
+No A are B. Some C are B.	Some C are not A.	entailment	symbolic	no	n/a	EIO	2	euler_1_EI2	images/euler_1_EI2.png	A	B	C
+All B are A. All C are B.	All C are A.	entailment	symbolic	no	n/a	AAA	1	euler_1_AA1	images/euler_1_AA1.png	A	B	C
+Some A are B. All B are C.	Some C are A.	entailment	symbolic	no	n/a	IAI	4	euler_1_IA4	images/euler_1_IA4.png	A	B	C
+All B are A. Some C are B.	Some C are A.	entailment	symbolic	no	n/a	AII	1	euler_1_AI1	images/euler_1_AI1.png	A	B	C
+Some A are not B. All B are C.	Some C are not A.	neutral	symbolic	yes	O	OAO	4	euler_1_OA4	images/euler_1_OA4.png	A	B	C
+Some A are not B. All C are B.	Some C are A.	neutral	symbolic	no	n/a	OAI	2	euler_1_OA2	images/euler_1_OA2.png	A	B	C
+Some A are B. All B are C.	Some C are not A.	neutral	symbolic	no	n/a	IAO	4	euler_1_IA4	images/euler_1_IA4.png	A	B	C
+No A are B. All C are B.	All C are A.	neutral	symbolic	no	n/a	EAA	2	euler_1_EA2	images/euler_1_EA2.png	A	B	C
+All B are A. Some C are not B.	Some C are not A.	neutral	symbolic	yes	A	AOO	1	euler_1_AO1	images/euler_1_AO1.png	A	B	C
+All A are B. Some C are B.	No C are A.	neutral	symbolic	no	n/a	AIE	2	euler_1_AI2	images/euler_1_AI2.png	A	B	C
+All A are B. No B are C.	All C are A.	neutral	symbolic	no	n/a	AEA	4	euler_1_AE4	images/euler_1_AE4.png	A	B	C
+All A are B. Some B are C.	All C are A.	neutral	symbolic	no	n/a	AIA	4	euler_1_AI4	images/euler_1_AI4.png	A	B	C
+All A are B. Some B are not C.	Some C are not A.	neutral	symbolic	yes	O	AOO	4	euler_1_AO4	images/euler_1_AO4.png	A	B	C
+Some B are not A. All C are B.	Some C are not A.	neutral	symbolic	yes	A	OAO	1	euler_1_OA1	images/euler_1_OA1.png	A	B	C
+All A are B. Some B are not C.	No C are A.	neutral	symbolic	no	n/a	AOE	4	euler_1_AO4	images/euler_1_AO4.png	A	B	C
+All B are A. Some B are C.	Some C are not A.	neutral	symbolic	no	n/a	AIO	3	euler_1_AI3	images/euler_1_AI3.png	A	B	C
+Some A are not B. All C are B.	No C are A.	neutral	symbolic	no	n/a	OAE	2	euler_1_OA2	images/euler_1_OA2.png	A	B	C
+All B are A. No B are C.	No C are A.	neutral	symbolic	yes	A	AEE	3	euler_1_AE3	images/euler_1_AE3.png	A	B	C
+Some A are not B. All B are C.	No C are A.	neutral	symbolic	no	n/a	OAE	4	euler_1_OA4	images/euler_1_OA4.png	A	B	C
+All dogs are animals. No animals are robots.	Some robots are dogs.	contradiction	congruent	no	n/a	AEI	4	euler_3_AE4	images/euler_3_AE4.png	dogs	animals	robots
+No shark are tuna. Some fish are shark.	All fish are tuna.	contradiction	congruent	no	n/a	EIA	1	euler_22_EI1	images/euler_22_EI1.png	tuna	shark	fish
+No females are males. Some males are students.	All students are females.	contradiction	congruent	no	n/a	EIA	4	euler_16_EI4	images/euler_16_EI4.png	females	males	students
+Some trees are plants. All plants are living things.	No living things are trees.	contradiction	congruent	no	n/a	IAE	4	euler_13_IA4	images/euler_13_IA4.png	trees	plants	living things
+All sparrows are birds. No birds are stones.	Some stones are sparrows.	contradiction	congruent	no	n/a	AEI	4	euler_7_AE4	images/euler_7_AE4.png	sparrows	birds	stones
+Some liquor are beer. All liquor are drink.	No drink are beer.	contradiction	congruent	no	n/a	IAE	3	euler_17_IA3	images/euler_17_IA3.png	beer	liquor	drink
+Some plants are trees. All plants are living things.	No living things are trees.	contradiction	congruent	no	n/a	IAE	3	euler_13_IA3	images/euler_13_IA3.png	trees	plants	living things
+All baseball players are athletes. Some human beings are not athletes.	All human beings are baseball players.	contradiction	congruent	no	n/a	AOA	2	euler_10_AO2	images/euler_10_AO2.png	baseball players	athletes	human beings
+No females are males. Some students are males.	All students are females.	contradiction	congruent	no	n/a	EIA	2	euler_16_EI2	images/euler_16_EI2.png	females	males	students
+All fruits are foods. No foods are stones.	Some stones are fruits.	contradiction	congruent	no	n/a	AEI	4	euler_2_AE4	images/euler_2_AE4.png	fruits	foods	stones
+No shark are tuna. Some shark are fish.	All fish are tuna.	contradiction	congruent	no	n/a	EIA	3	euler_22_EI3	images/euler_22_EI3.png	tuna	shark	fish
+No males are females. Some males are students.	All students are females.	contradiction	congruent	no	n/a	EIA	3	euler_16_EI3	images/euler_16_EI3.png	females	males	students
+All dogs are animals. No robots are animals.	Some robots are dogs.	contradiction	congruent	no	n/a	AEI	2	euler_3_AE2	images/euler_3_AE2.png	dogs	animals	robots
+All sparrows are birds. No stones are birds.	Some stones are sparrows.	contradiction	congruent	no	n/a	AEI	2	euler_7_AE2	images/euler_7_AE2.png	sparrows	birds	stones
+Some beer are liquor. All liquor are drink.	No drink are beer.	contradiction	congruent	no	n/a	IAE	4	euler_17_IA4	images/euler_17_IA4.png	beer	liquor	drink
+All beer are liquor. Some drink are not liquor.	All drink are beer.	contradiction	congruent	no	n/a	AOA	2	euler_17_AO2	images/euler_17_AO2.png	beer	liquor	drink
+Some tomatoes are vegetables. All tomatoes are plants.	No plants are vegetables.	contradiction	congruent	no	n/a	IAE	3	euler_20_IA3	images/euler_20_IA3.png	vegetables	tomatoes	plants
+Some shark are not tuna. All shark are fish.	All fish are tuna.	contradiction	congruent	no	n/a	OAA	3	euler_22_OA3	images/euler_22_OA3.png	tuna	shark	fish
+Some vegetables are tomatoes. All tomatoes are plants.	No plants are vegetables.	contradiction	congruent	no	n/a	IAE	4	euler_20_IA4	images/euler_20_IA4.png	vegetables	tomatoes	plants
+All sparrows are birds. Some stones are not birds.	All stones are sparrows.	contradiction	congruent	no	n/a	AOA	2	euler_7_AO2	images/euler_7_AO2.png	sparrows	birds	stones
+All fruits are foods. No stones are foods.	Some stones are fruits.	contradiction	congruent	no	n/a	AEI	2	euler_2_AE2	images/euler_2_AE2.png	fruits	foods	stones
+No tuna are shark. Some fish are shark.	All fish are tuna.	contradiction	congruent	no	n/a	EIA	2	euler_22_EI2	images/euler_22_EI2.png	tuna	shark	fish
+All fruits are foods. Some stones are not foods.	All stones are fruits.	contradiction	congruent	no	n/a	AOA	2	euler_2_AO2	images/euler_2_AO2.png	fruits	foods	stones
+All pigeons are birds. No birds are cats.	Some cats are pigeons.	contradiction	congruent	no	n/a	AEI	4	euler_9_AE4	images/euler_9_AE4.png	pigeons	birds	cats
+All vegetables are tomatoes. Some plants are not tomatoes.	All plants are vegetables.	contradiction	congruent	no	n/a	AOA	2	euler_20_AO2	images/euler_20_AO2.png	vegetables	tomatoes	plants
+All pigeons are birds. No cats are birds.	Some cats are pigeons.	contradiction	congruent	no	n/a	AEI	2	euler_9_AE2	images/euler_9_AE2.png	pigeons	birds	cats
+Some athletes are baseball players. All athletes are human beings.	No human beings are baseball players.	contradiction	congruent	no	n/a	IAE	3	euler_10_IA3	images/euler_10_IA3.png	baseball players	athletes	human beings
+Some baseball players are athletes. All athletes are human beings.	No human beings are baseball players.	contradiction	congruent	no	n/a	IAE	4	euler_10_IA4	images/euler_10_IA4.png	baseball players	athletes	human beings
+All tomatoes are plants. Some animals are not plants.	All animals are tomatoes.	contradiction	congruent	no	n/a	AOA	2	euler_11_AO2	images/euler_11_AO2.png	tomatoes	plants	animals
+Some plants are not trees. All plants are living things.	All living things are trees.	contradiction	congruent	no	n/a	OAA	3	euler_13_OA3	images/euler_13_OA3.png	trees	plants	living things
+Some athletes are not baseball players. All athletes are human beings.	All human beings are baseball players.	contradiction	congruent	no	n/a	OAA	3	euler_10_OA3	images/euler_10_OA3.png	baseball players	athletes	human beings
+Some liquor are not beer. All liquor are drink.	All drink are beer.	contradiction	congruent	no	n/a	OAA	3	euler_17_OA3	images/euler_17_OA3.png	beer	liquor	drink
+All tomatoes are plants. No animals are plants.	Some animals are tomatoes.	contradiction	congruent	no	n/a	AEI	2	euler_11_AE2	images/euler_11_AE2.png	tomatoes	plants	animals
+No males are females. Some students are males.	All students are females.	contradiction	congruent	no	n/a	EIA	1	euler_16_EI1	images/euler_16_EI1.png	females	males	students
+No tuna are shark. Some shark are fish.	All fish are tuna.	contradiction	congruent	no	n/a	EIA	4	euler_22_EI4	images/euler_22_EI4.png	tuna	shark	fish
+All trees are plants. Some living things are not plants.	All living things are trees.	contradiction	congruent	no	n/a	AOA	2	euler_13_AO2	images/euler_13_AO2.png	trees	plants	living things
+All dogs are animals. Some robots are not animals.	All robots are dogs.	contradiction	congruent	no	n/a	AOA	2	euler_3_AO2	images/euler_3_AO2.png	dogs	animals	robots
+Some tomatoes are not vegetables. All tomatoes are plants.	All plants are vegetables.	contradiction	congruent	no	n/a	OAA	3	euler_20_OA3	images/euler_20_OA3.png	vegetables	tomatoes	plants
+All tomatoes are plants. No plants are animals.	Some animals are tomatoes.	contradiction	congruent	no	n/a	AEI	4	euler_11_AE4	images/euler_11_AE4.png	tomatoes	plants	animals
+All pigeons are birds. Some cats are not birds.	All cats are pigeons.	contradiction	congruent	no	n/a	AOA	2	euler_9_AO2	images/euler_9_AO2.png	pigeons	birds	cats
+No females are males. Some students are males.	Some students are not females.	entailment	congruent	no	n/a	EIO	2	euler_16_EI2	images/euler_16_EI2.png	females	males	students
+All tomatoes are plants. No animals are plants.	No animals are tomatoes.	entailment	congruent	no	n/a	AEE	2	euler_11_AE2	images/euler_11_AE2.png	tomatoes	plants	animals
+No shark are tuna. Some fish are shark.	Some fish are not tuna.	entailment	congruent	no	n/a	EIO	1	euler_22_EI1	images/euler_22_EI1.png	tuna	shark	fish
+Some shark are not tuna. All shark are fish.	Some fish are not tuna.	entailment	congruent	no	n/a	OAO	3	euler_22_OA3	images/euler_22_OA3.png	tuna	shark	fish
+All pigeons are birds. No cats are birds.	No cats are pigeons.	entailment	congruent	no	n/a	AEE	2	euler_9_AE2	images/euler_9_AE2.png	pigeons	birds	cats
+No tuna are shark. Some fish are shark.	Some fish are not tuna.	entailment	congruent	no	n/a	EIO	2	euler_22_EI2	images/euler_22_EI2.png	tuna	shark	fish
+All beer are liquor. Some drink are not liquor.	Some drink are not beer.	entailment	congruent	no	n/a	AOO	2	euler_17_AO2	images/euler_17_AO2.png	beer	liquor	drink
+Some tomatoes are not vegetables. All tomatoes are plants.	Some plants are not vegetables.	entailment	congruent	no	n/a	OAO	3	euler_20_OA3	images/euler_20_OA3.png	vegetables	tomatoes	plants
+Some liquor are not beer. All liquor are drink.	Some drink are not beer.	entailment	congruent	no	n/a	OAO	3	euler_17_OA3	images/euler_17_OA3.png	beer	liquor	drink
+Some plants are not trees. All plants are living things.	Some living things are not trees.	entailment	congruent	no	n/a	OAO	3	euler_13_OA3	images/euler_13_OA3.png	trees	plants	living things
+Some plants are trees. All plants are living things.	Some living things are trees.	entailment	congruent	no	n/a	IAI	3	euler_13_IA3	images/euler_13_IA3.png	trees	plants	living things
+All pigeons are birds. Some cats are not birds.	Some cats are not pigeons.	entailment	congruent	no	n/a	AOO	2	euler_9_AO2	images/euler_9_AO2.png	pigeons	birds	cats
+All tomatoes are plants. Some animals are not plants.	Some animals are not tomatoes.	entailment	congruent	no	n/a	AOO	2	euler_11_AO2	images/euler_11_AO2.png	tomatoes	plants	animals
+All baseball players are athletes. Some human beings are not athletes.	Some human beings are not baseball players.	entailment	congruent	no	n/a	AOO	2	euler_10_AO2	images/euler_10_AO2.png	baseball players	athletes	human beings
+Some beer are liquor. All liquor are drink.	Some drink are beer.	entailment	congruent	no	n/a	IAI	4	euler_17_IA4	images/euler_17_IA4.png	beer	liquor	drink
+All trees are plants. Some living things are not plants.	Some living things are not trees.	entailment	congruent	no	n/a	AOO	2	euler_13_AO2	images/euler_13_AO2.png	trees	plants	living things
+All dogs are animals. No robots are animals.	No robots are dogs.	entailment	congruent	no	n/a	AEE	2	euler_3_AE2	images/euler_3_AE2.png	dogs	animals	robots
+Some trees are plants. All plants are living things.	Some living things are trees.	entailment	congruent	no	n/a	IAI	4	euler_13_IA4	images/euler_13_IA4.png	trees	plants	living things
+No shark are tuna. Some shark are fish.	Some fish are not tuna.	entailment	congruent	no	n/a	EIO	3	euler_22_EI3	images/euler_22_EI3.png	tuna	shark	fish
+Some athletes are baseball players. All athletes are human beings.	Some human beings are baseball players.	entailment	congruent	no	n/a	IAI	3	euler_10_IA3	images/euler_10_IA3.png	baseball players	athletes	human beings
+Some vegetables are tomatoes. All tomatoes are plants.	Some plants are vegetables.	entailment	congruent	no	n/a	IAI	4	euler_20_IA4	images/euler_20_IA4.png	vegetables	tomatoes	plants
+Some liquor are beer. All liquor are drink.	Some drink are beer.	entailment	congruent	no	n/a	IAI	3	euler_17_IA3	images/euler_17_IA3.png	beer	liquor	drink
+All pigeons are birds. No birds are cats.	No cats are pigeons.	entailment	congruent	no	n/a	AEE	4	euler_9_AE4	images/euler_9_AE4.png	pigeons	birds	cats
+All fruits are foods. Some stones are not foods.	Some stones are not fruits.	entailment	congruent	no	n/a	AOO	2	euler_2_AO2	images/euler_2_AO2.png	fruits	foods	stones
+Some athletes are not baseball players. All athletes are human beings.	Some human beings are not baseball players.	entailment	congruent	no	n/a	OAO	3	euler_10_OA3	images/euler_10_OA3.png	baseball players	athletes	human beings
+All tomatoes are plants. No plants are animals.	No animals are tomatoes.	entailment	congruent	no	n/a	AEE	4	euler_11_AE4	images/euler_11_AE4.png	tomatoes	plants	animals
+All sparrows are birds. No birds are stones.	No stones are sparrows.	entailment	congruent	no	n/a	AEE	4	euler_7_AE4	images/euler_7_AE4.png	sparrows	birds	stones
+No males are females. Some students are males.	Some students are not females.	entailment	congruent	no	n/a	EIO	1	euler_16_EI1	images/euler_16_EI1.png	females	males	students
+All sparrows are birds. Some stones are not birds.	Some stones are not sparrows.	entailment	congruent	no	n/a	AOO	2	euler_7_AO2	images/euler_7_AO2.png	sparrows	birds	stones
+All vegetables are tomatoes. Some plants are not tomatoes.	Some plants are not vegetables.	entailment	congruent	no	n/a	AOO	2	euler_20_AO2	images/euler_20_AO2.png	vegetables	tomatoes	plants
+Some baseball players are athletes. All athletes are human beings.	Some human beings are baseball players.	entailment	congruent	no	n/a	IAI	4	euler_10_IA4	images/euler_10_IA4.png	baseball players	athletes	human beings
+All dogs are animals. No animals are robots.	No robots are dogs.	entailment	congruent	no	n/a	AEE	4	euler_3_AE4	images/euler_3_AE4.png	dogs	animals	robots
+All fruits are foods. No foods are stones.	No stones are fruits.	entailment	congruent	no	n/a	AEE	4	euler_2_AE4	images/euler_2_AE4.png	fruits	foods	stones
+All fruits are foods. No stones are foods.	No stones are fruits.	entailment	congruent	no	n/a	AEE	2	euler_2_AE2	images/euler_2_AE2.png	fruits	foods	stones
+No tuna are shark. Some shark are fish.	Some fish are not tuna.	entailment	congruent	no	n/a	EIO	4	euler_22_EI4	images/euler_22_EI4.png	tuna	shark	fish
+No females are males. Some males are students.	Some students are not females.	entailment	congruent	no	n/a	EIO	4	euler_16_EI4	images/euler_16_EI4.png	females	males	students
+No males are females. Some males are students.	Some students are not females.	entailment	congruent	no	n/a	EIO	3	euler_16_EI3	images/euler_16_EI3.png	females	males	students
+All sparrows are birds. No stones are birds.	No stones are sparrows.	entailment	congruent	no	n/a	AEE	2	euler_7_AE2	images/euler_7_AE2.png	sparrows	birds	stones
+Some tomatoes are vegetables. All tomatoes are plants.	Some plants are vegetables.	entailment	congruent	no	n/a	IAI	3	euler_20_IA3	images/euler_20_IA3.png	vegetables	tomatoes	plants
+All dogs are animals. Some robots are not animals.	Some robots are not dogs.	entailment	congruent	no	n/a	AOO	2	euler_3_AO2	images/euler_3_AO2.png	dogs	animals	robots
+No females are males. Some males are students.	No students are females.	neutral	congruent	no	n/a	EIE	4	euler_16_EI4	images/euler_16_EI4.png	females	males	students
+All trumpets are instruments. Some instruments are string instruments.	No string instruments are trumpets.	neutral	congruent	no	n/a	AIE	4	euler_14_AI4	images/euler_14_AI4.png	trumpets	instruments	string instruments
+All tomatoes are plants. No animals are plants.	All animals are tomatoes.	neutral	congruent	no	n/a	AEA	2	euler_11_AE2	images/euler_11_AE2.png	tomatoes	plants	animals
+Some plants are not trees. All plants are living things.	No living things are trees.	neutral	congruent	no	n/a	OAE	3	euler_13_OA3	images/euler_13_OA3.png	trees	plants	living things
+All dogs are animals. Some robots are not animals.	Some robots are dogs.	neutral	congruent	no	n/a	AOI	2	euler_3_AO2	images/euler_3_AO2.png	dogs	animals	robots
+All vegetables are tomatoes. All tomatoes are plants.	All plants are vegetables.	neutral	congruent	yes	A	AAA	4	euler_20_AA4	images/euler_20_AA4.png	vegetables	tomatoes	plants
+Some instruments are trumpets. All string instruments are instruments.	All string instruments are trumpets.	neutral	congruent	no	n/a	IAA	1	euler_14_IA1	images/euler_14_IA1.png	trumpets	instruments	string instruments
+All wicked people are human beings. Some human beings are not thieves.	All thieves are wicked people.	neutral	congruent	no	n/a	AOA	4	euler_21_AO4	images/euler_21_AO4.png	wicked people	human beings	thieves
+All trumpets are instruments. All string instruments are instruments.	Some string instruments are not trumpets.	neutral	congruent	no	n/a	AAO	2	euler_14_AA2	images/euler_14_AA2.png	trumpets	instruments	string instruments
+Some shark are not tuna. All shark are fish.	Some fish are tuna.	neutral	congruent	no	n/a	OAI	3	euler_22_OA3	images/euler_22_OA3.png	tuna	shark	fish
+All tomatoes are plants. Some animals are not plants.	No animals are tomatoes.	neutral	congruent	no	n/a	AOE	2	euler_11_AO2	images/euler_11_AO2.png	tomatoes	plants	animals
+All tomatoes are plants. No animals are plants.	Some animals are not tomatoes.	neutral	congruent	no	n/a	AEO	2	euler_11_AE2	images/euler_11_AE2.png	tomatoes	plants	animals
+All wicked people are human beings. Some human beings are not thieves.	No thieves are wicked people.	neutral	congruent	no	n/a	AOE	4	euler_21_AO4	images/euler_21_AO4.png	wicked people	human beings	thieves
+Some human beings are wicked people. All thieves are human beings.	Some thieves are not wicked people.	neutral	congruent	no	n/a	IAO	1	euler_21_IA1	images/euler_21_IA1.png	wicked people	human beings	thieves
+All vegetables are tomatoes. All tomatoes are plants.	No plants are vegetables.	neutral	congruent	no	n/a	AAE	4	euler_20_AA4	images/euler_20_AA4.png	vegetables	tomatoes	plants
+Some tuna are not shark. All shark are fish.	Some fish are tuna.	neutral	congruent	no	n/a	OAI	4	euler_22_OA4	images/euler_22_OA4.png	tuna	shark	fish
+All human beings are mammals. Some horses are mammals.	All horses are human beings.	neutral	congruent	no	n/a	AIA	2	euler_15_AI2	images/euler_15_AI2.png	human beings	mammals	horses
+All beer are liquor. All liquor are drink.	All drink are beer.	neutral	congruent	yes	A	AAA	4	euler_17_AA4	images/euler_17_AA4.png	beer	liquor	drink
+All fruits are foods. No foods are stones.	Some stones are not fruits.	neutral	congruent	no	n/a	AEO	4	euler_2_AE4	images/euler_2_AE4.png	fruits	foods	stones
+All trees are plants. All plants are living things.	No living things are trees.	neutral	congruent	no	n/a	AAE	4	euler_13_AA4	images/euler_13_AA4.png	trees	plants	living things
+All wicked people are human beings. Some human beings are thieves.	Some thieves are not wicked people.	neutral	congruent	no	n/a	AIO	4	euler_21_AI4	images/euler_21_AI4.png	wicked people	human beings	thieves
+All vegetables are tomatoes. Some plants are not tomatoes.	Some plants are vegetables.	neutral	congruent	no	n/a	AOI	2	euler_20_AO2	images/euler_20_AO2.png	vegetables	tomatoes	plants
+No tuna are shark. All shark are fish.	Some fish are tuna.	neutral	congruent	no	n/a	EAI	4	euler_22_EA4	images/euler_22_EA4.png	tuna	shark	fish
+Some human beings are wicked people. All thieves are human beings.	Some thieves are wicked people.	neutral	congruent	yes	A	IAI	1	euler_21_IA1	images/euler_21_IA1.png	wicked people	human beings	thieves
+All wicked people are human beings. All thieves are human beings.	Some thieves are wicked people.	neutral	congruent	no	n/a	AAI	2	euler_21_AA2	images/euler_21_AA2.png	wicked people	human beings	thieves
+All baseball players are athletes. Some human beings are athletes.	Some human beings are baseball players.	neutral	congruent	yes	A	AII	2	euler_10_AI2	images/euler_10_AI2.png	baseball players	athletes	human beings
+All human beings are mammals. Some mammals are horses.	Some horses are not human beings.	neutral	congruent	no	n/a	AIO	4	euler_15_AI4	images/euler_15_AI4.png	human beings	mammals	horses
+All baseball players are athletes. Some human beings are athletes.	Some human beings are not baseball players.	neutral	congruent	no	n/a	AIO	2	euler_10_AI2	images/euler_10_AI2.png	baseball players	athletes	human beings
+All sparrows are birds. Some birds are not stones.	Some stones are sparrows.	neutral	congruent	no	n/a	AOI	4	euler_7_AO4	images/euler_7_AO4.png	sparrows	birds	stones
+Some human beings are not wicked people. All thieves are human beings.	Some thieves are not wicked people.	neutral	congruent	yes	A	OAO	1	euler_21_OA1	images/euler_21_OA1.png	wicked people	human beings	thieves
+All beer are liquor. All liquor are drink.	Some drink are beer.	neutral	congruent	no	n/a	AAI	4	euler_17_AA4	images/euler_17_AA4.png	beer	liquor	drink
+All dogs are animals. No animals are robots.	Some robots are not dogs.	neutral	congruent	no	n/a	AEO	4	euler_3_AE4	images/euler_3_AE4.png	dogs	animals	robots
+All trees are plants. Some living things are plants.	Some living things are trees.	neutral	congruent	yes	A	AII	2	euler_13_AI2	images/euler_13_AI2.png	trees	plants	living things
+All beer are liquor. Some drink are liquor.	Some drink are beer.	neutral	congruent	yes	A	AII	2	euler_17_AI2	images/euler_17_AI2.png	beer	liquor	drink
+All human beings are mammals. All horses are mammals.	All horses are human beings.	neutral	congruent	yes	A	AAA	2	euler_15_AA2	images/euler_15_AA2.png	human beings	mammals	horses
+All baseball players are athletes. Some athletes are human beings.	No human beings are baseball players.	neutral	congruent	no	n/a	AIE	4	euler_10_AI4	images/euler_10_AI4.png	baseball players	athletes	human beings
+Some vegetables are tomatoes. All tomatoes are plants.	Some plants are not vegetables.	neutral	congruent	no	n/a	IAO	4	euler_20_IA4	images/euler_20_IA4.png	vegetables	tomatoes	plants
+All fruits are foods. Some foods are not stones.	All stones are fruits.	neutral	congruent	no	n/a	AOA	4	euler_2_AO4	images/euler_2_AO4.png	fruits	foods	stones
+All beer are liquor. Some liquor are drink.	No drink are beer.	neutral	congruent	no	n/a	AIE	4	euler_17_AI4	images/euler_17_AI4.png	beer	liquor	drink
+All vegetables are tomatoes. Some plants are tomatoes.	Some plants are vegetables.	neutral	congruent	yes	A	AII	2	euler_20_AI2	images/euler_20_AI2.png	vegetables	tomatoes	plants
+No vegetables are tomatoes. All plants are tomatoes.	Some plants are vegetables.	contradiction	incongruent	no	n/a	EAI	2	euler_20_EA2	images/euler_20_EA2.png	vegetables	tomatoes	plants
+No human beings are wicked people. Some thieves are human beings.	All thieves are wicked people.	contradiction	incongruent	no	n/a	EIA	1	euler_21_EI1	images/euler_21_EI1.png	wicked people	human beings	thieves
+No tuna are shark. All fish are shark.	Some fish are tuna.	contradiction	incongruent	no	n/a	EAI	2	euler_22_EA2	images/euler_22_EA2.png	tuna	shark	fish
+Some human beings are wicked people. All human beings are thieves.	No thieves are wicked people.	contradiction	incongruent	no	n/a	IAE	3	euler_21_IA3	images/euler_21_IA3.png	wicked people	human beings	thieves
+No athletes are baseball players. Some human beings are athletes.	All human beings are baseball players.	contradiction	incongruent	no	n/a	EIA	1	euler_10_EI1	images/euler_10_EI1.png	baseball players	athletes	human beings
+All crocodiles are birds. Some crocodiles are crows.	No crows are birds.	contradiction	incongruent	no	n/a	AIE	3	euler_6_AI3	images/euler_6_AI3.png	birds	crocodiles	crows
+No metals are sand. All air are sand.	Some air are metals.	contradiction	incongruent	no	n/a	EAI	2	euler_5_EA2	images/euler_5_EA2.png	metals	sand	air
+All students are horses. No humans are horses.	Some humans are students.	contradiction	incongruent	no	n/a	AEI	2	euler_8_AE2	images/euler_8_AE2.png	students	horses	humans
+All liquid are metals. All stones are liquid.	Some stones are not metals.	contradiction	incongruent	no	n/a	AAO	1	euler_18_AA1	images/euler_18_AA1.png	metals	liquid	stones
+No sand are metals. All air are sand.	Some air are metals.	contradiction	incongruent	no	n/a	EAI	1	euler_5_EA1	images/euler_5_EA1.png	metals	sand	air
+All athletes are baseball players. All human beings are athletes.	Some human beings are not baseball players.	contradiction	incongruent	no	n/a	AAO	1	euler_10_AA1	images/euler_10_AA1.png	baseball players	athletes	human beings
+No wicked people are human beings. All thieves are human beings.	Some thieves are wicked people.	contradiction	incongruent	no	n/a	EAI	2	euler_21_EA2	images/euler_21_EA2.png	wicked people	human beings	thieves
+No water are metals. All iron are water.	Some iron are metals.	contradiction	incongruent	no	n/a	EAI	1	euler_19_EA1	images/euler_19_EA1.png	metals	water	iron
+All vegetables are tomatoes. No plants are tomatoes.	Some plants are vegetables.	contradiction	incongruent	no	n/a	AEI	2	euler_20_AE2	images/euler_20_AE2.png	vegetables	tomatoes	plants
+All ghosts are students. All human beings are ghosts.	Some human beings are not students.	contradiction	incongruent	no	n/a	AAO	1	euler_12_AA1	images/euler_12_AA1.png	students	ghosts	human beings
+No pigeons are birds. Some cats are birds.	All cats are pigeons.	contradiction	incongruent	no	n/a	EIA	2	euler_9_EI2	images/euler_9_EI2.png	pigeons	birds	cats
+Some tuna are shark. All shark are fish.	No fish are tuna.	contradiction	incongruent	no	n/a	IAE	4	euler_22_IA4	images/euler_22_IA4.png	tuna	shark	fish
+All plants are trees. All living things are plants.	Some living things are not trees.	contradiction	incongruent	no	n/a	AAO	1	euler_13_AA1	images/euler_13_AA1.png	trees	plants	living things
+Some birds are pigeons. All birds are cats.	No cats are pigeons.	contradiction	incongruent	no	n/a	IAE	3	euler_9_IA3	images/euler_9_IA3.png	pigeons	birds	cats
+Some sand are not metals. All sand are air.	All air are metals.	contradiction	incongruent	no	n/a	OAA	3	euler_5_OA3	images/euler_5_OA3.png	metals	sand	air
+No crocodiles are birds. Some crocodiles are crows.	All crows are birds.	contradiction	incongruent	no	n/a	EIA	3	euler_6_EI3	images/euler_6_EI3.png	birds	crocodiles	crows
+No baseball players are athletes. Some human beings are athletes.	All human beings are baseball players.	contradiction	incongruent	no	n/a	EIA	2	euler_10_EI2	images/euler_10_EI2.png	baseball players	athletes	human beings
+No metals are water. Some iron are water.	All iron are metals.	contradiction	incongruent	no	n/a	EIA	2	euler_19_EI2	images/euler_19_EI2.png	metals	water	iron
+All plants are trees. Some living things are plants.	No living things are trees.	contradiction	incongruent	no	n/a	AIE	1	euler_13_AI1	images/euler_13_AI1.png	trees	plants	living things
+All foods are fruits. Some stones are foods.	No stones are fruits.	contradiction	incongruent	no	n/a	AIE	1	euler_2_AI1	images/euler_2_AI1.png	fruits	foods	stones
+No dogs are animals. Some robots are animals.	All robots are dogs.	contradiction	incongruent	no	n/a	EIA	2	euler_3_EI2	images/euler_3_EI2.png	dogs	animals	robots
+Some birds are sparrows. All birds are stones.	No stones are sparrows.	contradiction	incongruent	no	n/a	IAE	3	euler_7_IA3	images/euler_7_IA3.png	sparrows	birds	stones
+All ghosts are students. Some ghosts are human beings.	No human beings are students.	contradiction	incongruent	no	n/a	AIE	3	euler_12_AI3	images/euler_12_AI3.png	students	ghosts	human beings
+All trumpets are instruments. Some string instruments are not instruments.	All string instruments are trumpets.	contradiction	incongruent	no	n/a	AOA	2	euler_14_AO2	images/euler_14_AO2.png	trumpets	instruments	string instruments
+No horses are students. All humans are horses.	Some humans are students.	contradiction	incongruent	no	n/a	EAI	1	euler_8_EA1	images/euler_8_EA1.png	students	horses	humans
+All birds are crocodiles. No crocodiles are crows.	Some crows are birds.	contradiction	incongruent	no	n/a	AEI	4	euler_6_AE4	images/euler_6_AE4.png	birds	crocodiles	crows
+Some crocodiles are birds. All crocodiles are crows.	No crows are birds.	contradiction	incongruent	no	n/a	IAE	3	euler_6_IA3	images/euler_6_IA3.png	birds	crocodiles	crows
+All robots are comodities. No comodities are machines.	Some machines are robots.	contradiction	incongruent	no	n/a	AEI	4	euler_4_AE4	images/euler_4_AE4.png	robots	comodities	machines
+All horses are students. All humans are horses.	Some humans are not students.	contradiction	incongruent	no	n/a	AAO	1	euler_8_AA1	images/euler_8_AA1.png	students	horses	humans
+No students are ghosts. All human beings are ghosts.	Some human beings are students.	contradiction	incongruent	no	n/a	EAI	2	euler_12_EA2	images/euler_12_EA2.png	students	ghosts	human beings
+No students are ghosts. Some ghosts are human beings.	All human beings are students.	contradiction	incongruent	no	n/a	EIA	4	euler_12_EI4	images/euler_12_EI4.png	students	ghosts	human beings
+All animals are dogs. All robots are animals.	Some robots are not dogs.	contradiction	incongruent	no	n/a	AAO	1	euler_3_AA1	images/euler_3_AA1.png	dogs	animals	robots
+All trees are plants. No living things are plants.	Some living things are trees.	contradiction	incongruent	no	n/a	AEI	2	euler_13_AE2	images/euler_13_AE2.png	trees	plants	living things
+All plants are tomatoes. Some animals are plants.	No animals are tomatoes.	contradiction	incongruent	no	n/a	AIE	1	euler_11_AI1	images/euler_11_AI1.png	tomatoes	plants	animals
+All birds are crocodiles. No crows are crocodiles.	Some crows are birds.	contradiction	incongruent	no	n/a	AEI	2	euler_6_AE2	images/euler_6_AE2.png	birds	crocodiles	crows
+All crocodiles are birds. Some crocodiles are crows.	Some crows are birds.	entailment	incongruent	no	n/a	AII	3	euler_6_AI3	images/euler_6_AI3.png	birds	crocodiles	crows
+No liquid are metals. Some liquid are stones.	Some stones are not metals.	entailment	incongruent	no	n/a	EIO	3	euler_18_EI3	images/euler_18_EI3.png	metals	liquid	stones
+No metals are water. Some iron are water.	Some iron are not metals.	entailment	incongruent	no	n/a	EIO	2	euler_19_EI2	images/euler_19_EI2.png	metals	water	iron
+No baseball players are athletes. Some human beings are athletes.	Some human beings are not baseball players.	entailment	incongruent	no	n/a	EIO	2	euler_10_EI2	images/euler_10_EI2.png	baseball players	athletes	human beings
+All athletes are baseball players. All human beings are athletes.	All human beings are baseball players.	entailment	incongruent	no	n/a	AAA	1	euler_10_AA1	images/euler_10_AA1.png	baseball players	athletes	human beings
+No sand are metals. All air are sand.	No air are metals.	entailment	incongruent	no	n/a	EAE	1	euler_5_EA1	images/euler_5_EA1.png	metals	sand	air
+No dogs are animals. Some robots are animals.	Some robots are not dogs.	entailment	incongruent	no	n/a	EIO	2	euler_3_EI2	images/euler_3_EI2.png	dogs	animals	robots
+No students are ghosts. Some ghosts are human beings.	Some human beings are not students.	entailment	incongruent	no	n/a	EIO	4	euler_12_EI4	images/euler_12_EI4.png	students	ghosts	human beings
+All trees are plants. No living things are plants.	No living things are trees.	entailment	incongruent	no	n/a	AEE	2	euler_13_AE2	images/euler_13_AE2.png	trees	plants	living things
+No wicked people are human beings. All thieves are human beings.	No thieves are wicked people.	entailment	incongruent	no	n/a	EAE	2	euler_21_EA2	images/euler_21_EA2.png	wicked people	human beings	thieves
+Some sand are not metals. All sand are air.	Some air are not metals.	entailment	incongruent	no	n/a	OAO	3	euler_5_OA3	images/euler_5_OA3.png	metals	sand	air
+All vegetables are tomatoes. No plants are tomatoes.	No plants are vegetables.	entailment	incongruent	no	n/a	AEE	2	euler_20_AE2	images/euler_20_AE2.png	vegetables	tomatoes	plants
+No vegetables are tomatoes. All plants are tomatoes.	No plants are vegetables.	entailment	incongruent	no	n/a	EAE	2	euler_20_EA2	images/euler_20_EA2.png	vegetables	tomatoes	plants
+Some birds are pigeons. All birds are cats.	Some cats are pigeons.	entailment	incongruent	no	n/a	IAI	3	euler_9_IA3	images/euler_9_IA3.png	pigeons	birds	cats
+Some human beings are wicked people. All human beings are thieves.	Some thieves are wicked people.	entailment	incongruent	no	n/a	IAI	3	euler_21_IA3	images/euler_21_IA3.png	wicked people	human beings	thieves
+All animals are dogs. All robots are animals.	All robots are dogs.	entailment	incongruent	no	n/a	AAA	1	euler_3_AA1	images/euler_3_AA1.png	dogs	animals	robots
+All robots are comodities. No comodities are machines.	No machines are robots.	entailment	incongruent	no	n/a	AEE	4	euler_4_AE4	images/euler_4_AE4.png	robots	comodities	machines
+No tomatoes are plants. Some plants are animals.	Some animals are not tomatoes.	entailment	incongruent	no	n/a	EIO	4	euler_11_EI4	images/euler_11_EI4.png	tomatoes	plants	animals
+All ghosts are students. Some ghosts are human beings.	Some human beings are students.	entailment	incongruent	no	n/a	AII	3	euler_12_AI3	images/euler_12_AI3.png	students	ghosts	human beings
+No crocodiles are birds. Some crocodiles are crows.	Some crows are not birds.	entailment	incongruent	no	n/a	EIO	3	euler_6_EI3	images/euler_6_EI3.png	birds	crocodiles	crows
+No beer are liquor. All drink are liquor.	No drink are beer.	entailment	incongruent	no	n/a	EAE	2	euler_17_EA2	images/euler_17_EA2.png	beer	liquor	drink
+No human beings are mammals. All horses are mammals.	No horses are human beings.	entailment	incongruent	no	n/a	EAE	2	euler_15_EA2	images/euler_15_EA2.png	human beings	mammals	horses
+All students are horses. No humans are horses.	No humans are students.	entailment	incongruent	no	n/a	AEE	2	euler_8_AE2	images/euler_8_AE2.png	students	horses	humans
+All birds are crocodiles. No crows are crocodiles.	No crows are birds.	entailment	incongruent	no	n/a	AEE	2	euler_6_AE2	images/euler_6_AE2.png	birds	crocodiles	crows
+No tuna are shark. All fish are shark.	No fish are tuna.	entailment	incongruent	no	n/a	EAE	2	euler_22_EA2	images/euler_22_EA2.png	tuna	shark	fish
+All horses are students. All humans are horses.	All humans are students.	entailment	incongruent	no	n/a	AAA	1	euler_8_AA1	images/euler_8_AA1.png	students	horses	humans
+All plants are trees. All living things are plants.	All living things are trees.	entailment	incongruent	no	n/a	AAA	1	euler_13_AA1	images/euler_13_AA1.png	trees	plants	living things
+Some tuna are shark. All shark are fish.	Some fish are tuna.	entailment	incongruent	no	n/a	IAI	4	euler_22_IA4	images/euler_22_IA4.png	tuna	shark	fish
+All foods are fruits. Some stones are foods.	Some stones are fruits.	entailment	incongruent	no	n/a	AII	1	euler_2_AI1	images/euler_2_AI1.png	fruits	foods	stones
+Some crocodiles are birds. All crocodiles are crows.	Some crows are birds.	entailment	incongruent	no	n/a	IAI	3	euler_6_IA3	images/euler_6_IA3.png	birds	crocodiles	crows
+No water are metals. All iron are water.	No iron are metals.	entailment	incongruent	no	n/a	EAE	1	euler_19_EA1	images/euler_19_EA1.png	metals	water	iron
+No horses are students. All humans are horses.	No humans are students.	entailment	incongruent	no	n/a	EAE	1	euler_8_EA1	images/euler_8_EA1.png	students	horses	humans
+No human beings are wicked people. Some thieves are human beings.	Some thieves are not wicked people.	entailment	incongruent	no	n/a	EIO	1	euler_21_EI1	images/euler_21_EI1.png	wicked people	human beings	thieves
+No metals are sand. All air are sand.	No air are metals.	entailment	incongruent	no	n/a	EAE	2	euler_5_EA2	images/euler_5_EA2.png	metals	sand	air
+All birds are crocodiles. No crocodiles are crows.	No crows are birds.	entailment	incongruent	no	n/a	AEE	4	euler_6_AE4	images/euler_6_AE4.png	birds	crocodiles	crows
+Some birds are sparrows. All birds are stones.	Some stones are sparrows.	entailment	incongruent	no	n/a	IAI	3	euler_7_IA3	images/euler_7_IA3.png	sparrows	birds	stones
+All plants are trees. Some living things are plants.	Some living things are trees.	entailment	incongruent	no	n/a	AII	1	euler_13_AI1	images/euler_13_AI1.png	trees	plants	living things
+No pigeons are birds. Some cats are birds.	Some cats are not pigeons.	entailment	incongruent	no	n/a	EIO	2	euler_9_EI2	images/euler_9_EI2.png	pigeons	birds	cats
+All trumpets are instruments. Some string instruments are not instruments.	Some string instruments are not trumpets.	entailment	incongruent	no	n/a	AOO	2	euler_14_AO2	images/euler_14_AO2.png	trumpets	instruments	string instruments
+No students are ghosts. All human beings are ghosts.	No human beings are students.	entailment	incongruent	no	n/a	EAE	2	euler_12_EA2	images/euler_12_EA2.png	students	ghosts	human beings
+All crocodiles are birds. Some crocodiles are crows.	Some crows are not birds.	neutral	incongruent	no	n/a	AIO	3	euler_6_AI3	images/euler_6_AI3.png	birds	crocodiles	crows
+All comodities are robots. All comodities are machines.	Some machines are not robots.	neutral	incongruent	no	n/a	AAO	3	euler_4_AA3	images/euler_4_AA3.png	robots	comodities	machines
+Some dogs are not animals. All animals are robots.	Some robots are not dogs.	neutral	incongruent	yes	O	OAO	4	euler_3_OA4	images/euler_3_OA4.png	dogs	animals	robots
+All trees are plants. Some plants are not living things.	Some living things are trees.	neutral	incongruent	no	n/a	AOI	4	euler_13_AO4	images/euler_13_AO4.png	trees	plants	living things
+No human beings are mammals. All horses are mammals.	All horses are human beings.	neutral	incongruent	no	n/a	EAA	2	euler_15_EA2	images/euler_15_EA2.png	human beings	mammals	horses
+All vegetables are tomatoes. Some tomatoes are not plants.	No plants are vegetables.	neutral	incongruent	no	n/a	AOE	4	euler_20_AO4	images/euler_20_AO4.png	vegetables	tomatoes	plants
+All tomatoes are plants. All plants are animals.	No animals are tomatoes.	neutral	incongruent	no	n/a	AAE	4	euler_11_AA4	images/euler_11_AA4.png	tomatoes	plants	animals
+Some tomatoes are plants. All animals are plants.	No animals are tomatoes.	neutral	incongruent	no	n/a	IAE	2	euler_11_IA2	images/euler_11_IA2.png	tomatoes	plants	animals
+Some students are not horses. All humans are horses.	Some humans are students.	neutral	incongruent	no	n/a	OAI	2	euler_8_OA2	images/euler_8_OA2.png	students	horses	humans
+Some trees are plants. All living things are plants.	Some living things are trees.	neutral	incongruent	yes	A	IAI	2	euler_13_IA2	images/euler_13_IA2.png	trees	plants	living things
+All vegetables are tomatoes. No plants are tomatoes.	Some plants are not vegetables.	neutral	incongruent	no	n/a	AEO	2	euler_20_AE2	images/euler_20_AE2.png	vegetables	tomatoes	plants
+All tomatoes are plants. Some plants are animals.	Some animals are not tomatoes.	neutral	incongruent	no	n/a	AIO	4	euler_11_AI4	images/euler_11_AI4.png	tomatoes	plants	animals
+Some tuna are shark. All fish are shark.	Some fish are not tuna.	neutral	incongruent	no	n/a	IAO	2	euler_22_IA2	images/euler_22_IA2.png	tuna	shark	fish
+No baseball players are athletes. All athletes are human beings.	No human beings are baseball players.	neutral	incongruent	yes	A	EAE	4	euler_10_EA4	images/euler_10_EA4.png	baseball players	athletes	human beings
+No pigeons are birds. Some cats are birds.	No cats are pigeons.	neutral	incongruent	no	n/a	EIE	2	euler_9_EI2	images/euler_9_EI2.png	pigeons	birds	cats
+No tomatoes are plants. Some plants are animals.	Some animals are tomatoes.	neutral	incongruent	no	n/a	EII	4	euler_11_EI4	images/euler_11_EI4.png	tomatoes	plants	animals
+No human beings are mammals. All horses are mammals.	Some horses are not human beings.	neutral	incongruent	no	n/a	EAO	2	euler_15_EA2	images/euler_15_EA2.png	human beings	mammals	horses
+Some females are males. All students are males.	Some students are females.	neutral	incongruent	yes	A	IAI	2	euler_16_IA2	images/euler_16_IA2.png	females	males	students
+Some trees are not plants. All plants are living things.	No living things are trees.	neutral	incongruent	no	n/a	OAE	4	euler_13_OA4	images/euler_13_OA4.png	trees	plants	living things
+All ghosts are students. No ghosts are human beings.	Some human beings are not students.	neutral	incongruent	no	n/a	AEO	3	euler_12_AE3	images/euler_12_AE3.png	students	ghosts	human beings
+All students are horses. No humans are horses.	Some humans are not students.	neutral	incongruent	no	n/a	AEO	2	euler_8_AE2	images/euler_8_AE2.png	students	horses	humans
+All water are metals. No water are iron.	All iron are metals.	neutral	incongruent	no	n/a	AEA	3	euler_19_AE3	images/euler_19_AE3.png	metals	water	iron
+All students are horses. Some horses are not humans.	Some humans are not students.	neutral	incongruent	yes	O	AOO	4	euler_8_AO4	images/euler_8_AO4.png	students	horses	humans
+All trees are plants. Some plants are not living things.	All living things are trees.	neutral	incongruent	no	n/a	AOA	4	euler_13_AO4	images/euler_13_AO4.png	trees	plants	living things
+No beer are liquor. All drink are liquor.	Some drink are not beer.	neutral	incongruent	no	n/a	EAO	2	euler_17_EA2	images/euler_17_EA2.png	beer	liquor	drink
+All fruits are foods. Some stones are foods.	Some stones are not fruits.	neutral	incongruent	no	n/a	AIO	2	euler_2_AI2	images/euler_2_AI2.png	fruits	foods	stones
+All plants are tomatoes. Some animals are plants.	Some animals are not tomatoes.	neutral	incongruent	no	n/a	AIO	1	euler_11_AI1	images/euler_11_AI1.png	tomatoes	plants	animals
+Some students are not horses. All humans are horses.	No humans are students.	neutral	incongruent	no	n/a	OAE	2	euler_8_OA2	images/euler_8_OA2.png	students	horses	humans
+No birds are sparrows. All birds are stones.	Some stones are not sparrows.	neutral	incongruent	no	n/a	EAO	3	euler_7_EA3	images/euler_7_EA3.png	sparrows	birds	stones
+All animals are dogs. All robots are animals.	Some robots are dogs.	neutral	incongruent	no	n/a	AAI	1	euler_3_AA1	images/euler_3_AA1.png	dogs	animals	robots
+No students are ghosts. All human beings are ghosts.	Some human beings are not students.	neutral	incongruent	no	n/a	EAO	2	euler_12_EA2	images/euler_12_EA2.png	students	ghosts	human beings
+No metals are water. Some iron are water.	No iron are metals.	neutral	incongruent	no	n/a	EIE	2	euler_19_EI2	images/euler_19_EI2.png	metals	water	iron
+All comodities are robots. All comodities are machines.	Some machines are robots.	neutral	incongruent	no	n/a	AAI	3	euler_4_AA3	images/euler_4_AA3.png	robots	comodities	machines
+All tomatoes are vegetables. Some tomatoes are not plants.	All plants are vegetables.	neutral	incongruent	no	n/a	AOA	3	euler_20_AO3	images/euler_20_AO3.png	vegetables	tomatoes	plants
+All ghosts are students. Some ghosts are human beings.	Some human beings are not students.	neutral	incongruent	no	n/a	AIO	3	euler_12_AI3	images/euler_12_AI3.png	students	ghosts	human beings
+All students are horses. No humans are horses.	All humans are students.	neutral	incongruent	no	n/a	AEA	2	euler_8_AE2	images/euler_8_AE2.png	students	horses	humans
+All dogs are animals. All robots are animals.	Some robots are dogs.	neutral	incongruent	no	n/a	AAI	2	euler_3_AA2	images/euler_3_AA2.png	dogs	animals	robots
+All ghosts are students. No human beings are ghosts.	Some human beings are students.	neutral	incongruent	no	n/a	AEI	1	euler_12_AE1	images/euler_12_AE1.png	students	ghosts	human beings
+All athletes are baseball players. All human beings are athletes.	No human beings are baseball players.	neutral	incongruent	no	n/a	AAE	1	euler_10_AA1	images/euler_10_AA1.png	baseball players	athletes	human beings
+Some tomatoes are not plants. All plants are animals.	Some animals are tomatoes.	neutral	incongruent	no	n/a	OAI	4	euler_11_OA4	images/euler_11_OA4.png	tomatoes	plants	animals
