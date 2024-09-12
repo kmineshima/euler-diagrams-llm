@@ -87,7 +87,7 @@ Images of Euler diagrams representing premises of syllogistic reasoning problems
 
 If you use this data in any published research, please cite the following:
 
-- Risako Ando, Kentaro Ozeki, Takanobu Morishita, Hirohiko Abe, Koji Mineshima, and Mitsuhiro Okada, ["Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?"](https://link.springer.com/chapter/10.1007/978-3-031-71291-3_19), *Proceedings of 14th International Conference on the Theory and Application of Diagrams* (Diagrams 2024), Lecture Notes in Artificial Intelligence (LNAI), Springer, 232-248, 2024.
+- Risako Ando, Kentaro Ozeki, Takanobu Morishita, Hirohiko Abe, Koji Mineshima, and Mitsuhiro Okada, ["Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?"](https://link.springer.com/chapter/10.1007/978-3-031-71291-3_19), *Proceedings of 14th International Conference on the Theory and Application of Diagrams* (Diagrams 2024), Lecture Notes in Computer Science (LNAI), Volume 14981, Springer, 232-248, 2024.
 
 ```
 @InProceedings{ando-et-al-2024-euler-diagrams-llm,
@@ -96,7 +96,7 @@ editor="Lemanski, Jens and Johansen, Mikkel Willum and Manalo, Emmanuel
 and Viana, Petrucio and Bhattacharjee, Reetu and Burns, Richard",
 title="Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?",
 booktitle="Diagrammatic Representation and Inference",
-series="Lecture Notes in Computer Science",
+series="Lecture Notes in Computer Science (LNAI)",
 volume="14981",
 year="2024",
 publisher="Springer",
