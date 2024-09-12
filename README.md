@@ -2,7 +2,7 @@
 
 _Evaluating the logical reasoning capabilities of large language models using Euler diagrams_
 
-Datasets and scripts for the DIAGRAMS2024 paper: "Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?"
+Datasets and scripts for the Diagrams 2024 paper: ["Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?"](https://link.springer.com/chapter/10.1007/978-3-031-71291-3_19)
 
 ## Contents
 
@@ -85,4 +85,23 @@ Images of Euler diagrams representing premises of syllogistic reasoning problems
 
 ## Citation
 
-Risako Ando, Kentaro Ozeki, Takanobu Morishita, Hirohiko Abe, Koji Mineshima, and Mitsuhiro Okada, "Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?", To appear in *Proceedings of 14th International Conference on the Theory and Application of Diagrams* (DIAGRAMS 2024), Lecture Notes in Artificial Intelligence (LNAI), Springer, 2024.
+If you use this data in any published research, please cite the following:
+
+- Risako Ando, Kentaro Ozeki, Takanobu Morishita, Hirohiko Abe, Koji Mineshima, and Mitsuhiro Okada, ["Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?"](https://link.springer.com/chapter/10.1007/978-3-031-71291-3_19), *Proceedings of 14th International Conference on the Theory and Application of Diagrams* (Diagrams 2024), Lecture Notes in Artificial Intelligence (LNAI), Springer, 232-248, 2024.
+
+```
+@InProceedings{ando-et-al-2024-euler-diagrams-llm,
+author="Ando, Risako and Ozeki, Kentaro and Morishita, Takanobu and Abe, Hirohiko and Mineshima, Koji and Okada, Mitsuhiro",
+editor="Lemanski, Jens and Johansen, Mikkel Willum and Manalo, Emmanuel
+and Viana, Petrucio and Bhattacharjee, Reetu and Burns, Richard",
+title="Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?",
+booktitle="Diagrammatic Representation and Inference",
+series="Lecture Notes in Computer Science",
+volume="14981",
+year="2024",
+publisher="Springer",
+pages="232--248",
+doi="https://doi.org/10.1007/978-3-031-71291-3_19"
+}
+```
+
