@@ -105,3 +105,8 @@ doi="https://doi.org/10.1007/978-3-031-71291-3_19"
 }
 ```
 
+## License
+
+This work is licensed under Creative Commons Attribution 4.0 International.
+
+[![CC4](https://licensebuttons.net/l/by/4.0/88x31.png)](https://creativecommons.org/licenses/by/4.0/)
