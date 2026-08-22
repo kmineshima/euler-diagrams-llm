@@ -1,19 +1,37 @@
 # euler-diagrams-llm
 
-_Evaluating the logical reasoning capabilities of large language models using Euler diagrams_
+_Evaluating syllogistic reasoning in large language models using Euler and linear diagrams_
 
-Datasets and scripts for the Diagrams 2024 paper: ["Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?"](https://link.springer.com/chapter/10.1007/978-3-031-71291-3_19)
+This repository contains datasets associated with two papers:
+
+- the Diagrams 2024 paper, ["Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?"](https://link.springer.com/chapter/10.1007/978-3-031-71291-3_19)
+- the Diagrams 2026 paper, ["Do Diagrams Help Large Language Models Reason? Evidence from Syllogistic Reasoning"](https://link.springer.com/chapter/10.1007/978-3-032-34178-5_30)
+
+The Diagrams 2026 study extends the validity-checking dataset from the Diagrams 2024 study with logical notation and ASCII linear-diagram representations. The original VC285 data and Euler-diagram images are shared between the two studies.
 
 ## Contents
 
-- [Contents](#contents)
 - [Datasets](#datasets)
+  - [Dataset Overview](#dataset-overview)
   - [Euler Diagram Images](#euler-diagram-images)
   - [Validity Checking Task Format](#validity-checking-task-format)
+  - [Linear Diagram Representations](#linear-diagram-representations)
   - [Multiple-Choice Task Format](#multiple-choice-task-format)
 - [Citation](#citation)
+  - [Diagrams 2024](#diagrams-2024)
+  - [Diagrams 2026](#diagrams-2026)
+- [License](#license)
 
 ## Datasets
+
+### Dataset Overview
+
+| Resource | Location | Used in | Description |
+| ---- | ---- | ---- | ---- |
+| Euler diagram images | `data/images/` | Diagrams 2024 and 2026 | Euler diagrams representing pairs of premises |
+| Validity-checking dataset | `data/EulerDiagramSynth_VC285.tsv` | Diagrams 2024 and 2026 | 285 syllogistic validity-checking problems |
+| Linear representations | `data/LinearDiagramSynth_VC285.tsv` | Diagrams 2026 | Self-contained VC285 task data with logical notation and ASCII linear diagrams |
+| Multiple-choice dataset | `data/EulerDiagramSynth_MC194.tsv` | Diagrams 2024 | 194 multiple-choice syllogistic problems |
 
 ### Euler Diagram Images
 
@@ -51,6 +69,40 @@ Images of Euler diagrams representing premises of syllogistic reasoning problems
 
 - See [our paper](#citation) for details.
 
+### Linear Diagram Representations
+
+#### File
+
+[`data/LinearDiagramSynth_VC285.tsv`](https://github.com/kmineshima/euler-diagrams-llm/blob/main/data/LinearDiagramSynth_VC285.tsv)
+
+#### Description
+
+This self-contained file provides the task information, logical notation, and ASCII linear-diagram representations used in the Diagrams 2026 paper. It can be used independently for experiments and analysis.
+
+Each record corresponds to a problem in `EulerDiagramSynth_VC285.tsv`. The two files can also be linked using the combination of `image_id` and `mood`.
+
+| Column Name | Description |
+| ---- | ---- |
+| premises_en | two premises in English |
+| hypothesis_en | one hypothesis in English |
+| gold | correct answer (*entailment*, *contradiction*, or *neutral*) |
+| content-type | classification based on belief congruency (*symbolic*, *congruent*, or *incongruent*) |
+| conversion | whether the problem is associated with a conversion error (*yes* or *no*) |
+| figure | code for the order in which each term appears (1-4) |
+| image_id | image ID used to link the record to VC285 |
+| mood | syllogistic mood; used with `image_id` as the record key |
+| premise1_logic | logical notation for the first premise |
+| premise2_logic | logical notation for the second premise |
+| premise1_ascii | ASCII linear diagram for the first premise |
+| premise2_ascii | ASCII linear diagram for the second premise |
+
+In the linear diagrams:
+
+- each line represents a set;
+- overlapping line segments represent overlapping sets;
+- separated line segments represent disjoint sets; and
+- `x` represents the existence of at least one element.
+
 ### Multiple-Choice Task Format
 
 #### File
@@ -85,7 +137,11 @@ Images of Euler diagrams representing premises of syllogistic reasoning problems
 
 ## Citation
 
-If you use this data in any published research, please cite the following:
+Please cite the paper corresponding to the dataset or representation you use.
+
+### Diagrams 2024
+
+For the original VC285 and MC194 datasets and Euler-diagram images:
 
 - Risako Ando, Kentaro Ozeki, Takanobu Morishita, Hirohiko Abe, Koji Mineshima, and Mitsuhiro Okada, ["Can Euler Diagrams Improve Syllogistic Reasoning in Large Language Models?"](https://link.springer.com/chapter/10.1007/978-3-031-71291-3_19), *Proceedings of 14th International Conference on the Theory and Application of Diagrams* (Diagrams 2024), Lecture Notes in Computer Science (LNAI), Volume 14981, Springer, 232-248, 2024.
 
@@ -102,6 +158,33 @@ year="2024",
 publisher="Springer",
 pages="232--248",
 doi="https://doi.org/10.1007/978-3-031-71291-3_19"
+}
+```
+
+### Diagrams 2026
+
+For the logical and linear-diagram representations:
+
+- Risako Ando and Koji Mineshima, ["Do Diagrams Help Large Language Models Reason? Evidence from Syllogistic Reasoning"](https://link.springer.com/chapter/10.1007/978-3-032-34178-5_30), *Diagrammatic Representation and Inference* (Diagrams 2026), Lecture Notes in Computer Science (LNAI), Volume 16833, Springer Nature Switzerland, 284-292, 2027.
+
+The paper was presented at Diagrams 2026; the Springer proceedings volume is dated 2027.
+
+```
+@InProceedings{ando-mineshima-2027-diagrams-help-llms,
+author="Ando, Risako and Mineshima, Koji",
+editor="Soboci{\'{n}}ski, Pawe{\l} and Bellucci, Francesco and Moktefi, Amirouche
+and Beisecker, Dave and Shimojima, Atsushi and de Vries, Erica
+and Bhattacharjee, Reetu",
+title="Do Diagrams Help Large Language Models Reason? Evidence from Syllogistic Reasoning",
+booktitle="Diagrammatic Representation and Inference",
+series="Lecture Notes in Computer Science (LNAI)",
+volume="16833",
+year="2027",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="284--292",
+doi="10.1007/978-3-032-34178-5_30",
+isbn="978-3-032-34178-5"
 }
 ```
 

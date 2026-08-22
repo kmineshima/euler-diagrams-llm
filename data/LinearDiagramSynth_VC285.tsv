@@ -1,0 +1,856 @@
+premises_en	hypothesis_en	gold	content-type	conversion	figure	image_id	mood	premise1_logic	premise2_logic	premise1_ascii	premise2_ascii
+All A are B. No B are C.	Some C are A.	contradiction	symbolic	no	4	euler_1_AE4	AEI	A ⊆ B	B ∩ C = ∅	"A:                                 ------
+B:                          ---------------"	"B:                      -------
+C:                                    --------"
+No A are B. Some B are C.	All C are A.	contradiction	symbolic	no	4	euler_1_EI4	EIA	A ∩ B = ∅	B ∩ C ≠ ∅	"A:                      -------
+B:                                    --------"	"B:                        -----x----
+C:                           --x---------"
+All B are A. All C are B.	Some C are not A.	contradiction	symbolic	no	1	euler_1_AA1	AAO	B ⊆ A	C ⊆ B	"B:                                 ------
+A:                          ---------------"	"C:                                 ------
+B:                          ---------------"
+No A are B. All C are B.	Some C are A.	contradiction	symbolic	no	2	euler_1_EA2	EAI	A ∩ B = ∅	C ⊆ B	"A:                      -------
+B:                                    --------"	"C:                                 ------
+B:                          ---------------"
+Some B are A. All B are C.	No C are A.	contradiction	symbolic	no	3	euler_1_IA3	IAE	B ∩ A ≠ ∅	B ⊆ C	"B:                        -----x----
+A:                           --x---------"	"B:                                 ------
+C:                          ---------------"
+No B are A. Some B are C.	All C are A.	contradiction	symbolic	no	3	euler_1_EI3	EIA	B ∩ A = ∅	B ∩ C ≠ ∅	"B:                      -------
+A:                                    --------"	"B:                        -----x----
+C:                           --x---------"
+All B are A. Some B are C.	No C are A.	contradiction	symbolic	no	3	euler_1_AI3	AIE	B ⊆ A	B ∩ C ≠ ∅	"B:                                 ------
+A:                          ---------------"	"B:                        -----x----
+C:                           --x---------"
+All A are B. Some C are not B.	All C are A.	contradiction	symbolic	no	2	euler_1_AO2	AOA	A ⊆ B	C \ B ≠ ∅	"A:                                 ------
+B:                          ---------------"	"C:                        --x-------
+B:                                 -----------"
+All A are B. No C are B.	Some C are A.	contradiction	symbolic	no	2	euler_1_AE2	AEI	A ⊆ B	C ∩ B = ∅	"A:                                 ------
+B:                          ---------------"	"C:                      -------
+B:                                    --------"
+Some B are not A. All B are C.	All C are A.	contradiction	symbolic	no	3	euler_1_OA3	OAA	B \ A ≠ ∅	B ⊆ C	"B:                        --x-------
+A:                                 -----------"	"B:                                 ------
+C:                          ---------------"
+No B are A. Some C are B.	All C are A.	contradiction	symbolic	no	1	euler_1_EI1	EIA	B ∩ A = ∅	C ∩ B ≠ ∅	"B:                      -------
+A:                                    --------"	"C:                        -----x----
+B:                           --x---------"
+Some A are B. All B are C.	No C are A.	contradiction	symbolic	no	4	euler_1_IA4	IAE	A ∩ B ≠ ∅	B ⊆ C	"A:                        -----x----
+B:                           --x---------"	"B:                                 ------
+C:                          ---------------"
+No B are A. All C are B.	Some C are A.	contradiction	symbolic	no	1	euler_1_EA1	EAI	B ∩ A = ∅	C ⊆ B	"B:                      -------
+A:                                    --------"	"C:                                 ------
+B:                          ---------------"
+All B are A. Some C are B.	No C are A.	contradiction	symbolic	no	1	euler_1_AI1	AIE	B ⊆ A	C ∩ B ≠ ∅	"B:                                 ------
+A:                          ---------------"	"C:                        -----x----
+B:                           --x---------"
+No A are B. Some C are B.	All C are A.	contradiction	symbolic	no	2	euler_1_EI2	EIA	A ∩ B = ∅	C ∩ B ≠ ∅	"A:                      -------
+B:                                    --------"	"C:                        -----x----
+B:                           --x---------"
+All A are B. Some C are not B.	Some C are not A.	entailment	symbolic	no	2	euler_1_AO2	AOO	A ⊆ B	C \ B ≠ ∅	"A:                                 ------
+B:                          ---------------"	"C:                        --x-------
+B:                                 -----------"
+Some B are A. All B are C.	Some C are A.	entailment	symbolic	no	3	euler_1_IA3	IAI	B ∩ A ≠ ∅	B ⊆ C	"B:                        -----x----
+A:                           --x---------"	"B:                                 ------
+C:                          ---------------"
+No A are B. Some B are C.	Some C are not A.	entailment	symbolic	no	4	euler_1_EI4	EIO	A ∩ B = ∅	B ∩ C ≠ ∅	"A:                      -------
+B:                                    --------"	"B:                        -----x----
+C:                           --x---------"
+All B are A. Some B are C.	Some C are A.	entailment	symbolic	no	3	euler_1_AI3	AII	B ⊆ A	B ∩ C ≠ ∅	"B:                                 ------
+A:                          ---------------"	"B:                        -----x----
+C:                           --x---------"
+Some B are not A. All B are C.	Some C are not A.	entailment	symbolic	no	3	euler_1_OA3	OAO	B \ A ≠ ∅	B ⊆ C	"B:                        --x-------
+A:                                 -----------"	"B:                                 ------
+C:                          ---------------"
+No B are A. Some C are B.	Some C are not A.	entailment	symbolic	no	1	euler_1_EI1	EIO	B ∩ A = ∅	C ∩ B ≠ ∅	"B:                      -------
+A:                                    --------"	"C:                        -----x----
+B:                           --x---------"
+All A are B. No C are B.	No C are A.	entailment	symbolic	no	2	euler_1_AE2	AEE	A ⊆ B	C ∩ B = ∅	"A:                                 ------
+B:                          ---------------"	"C:                      -------
+B:                                    --------"
+No B are A. Some B are C.	Some C are not A.	entailment	symbolic	no	3	euler_1_EI3	EIO	B ∩ A = ∅	B ∩ C ≠ ∅	"B:                      -------
+A:                                    --------"	"B:                        -----x----
+C:                           --x---------"
+No B are A. All C are B.	No C are A.	entailment	symbolic	no	1	euler_1_EA1	EAE	B ∩ A = ∅	C ⊆ B	"B:                      -------
+A:                                    --------"	"C:                                 ------
+B:                          ---------------"
+All A are B. No B are C.	No C are A.	entailment	symbolic	no	4	euler_1_AE4	AEE	A ⊆ B	B ∩ C = ∅	"A:                                 ------
+B:                          ---------------"	"B:                      -------
+C:                                    --------"
+No A are B. All C are B.	No C are A.	entailment	symbolic	no	2	euler_1_EA2	EAE	A ∩ B = ∅	C ⊆ B	"A:                      -------
+B:                                    --------"	"C:                                 ------
+B:                          ---------------"
+No A are B. Some C are B.	Some C are not A.	entailment	symbolic	no	2	euler_1_EI2	EIO	A ∩ B = ∅	C ∩ B ≠ ∅	"A:                      -------
+B:                                    --------"	"C:                        -----x----
+B:                           --x---------"
+All B are A. All C are B.	All C are A.	entailment	symbolic	no	1	euler_1_AA1	AAA	B ⊆ A	C ⊆ B	"B:                                 ------
+A:                          ---------------"	"C:                                 ------
+B:                          ---------------"
+Some A are B. All B are C.	Some C are A.	entailment	symbolic	no	4	euler_1_IA4	IAI	A ∩ B ≠ ∅	B ⊆ C	"A:                        -----x----
+B:                           --x---------"	"B:                                 ------
+C:                          ---------------"
+All B are A. Some C are B.	Some C are A.	entailment	symbolic	no	1	euler_1_AI1	AII	B ⊆ A	C ∩ B ≠ ∅	"B:                                 ------
+A:                          ---------------"	"C:                        -----x----
+B:                           --x---------"
+Some A are not B. All B are C.	Some C are not A.	neutral	symbolic	yes	4	euler_1_OA4	OAO	A \ B ≠ ∅	B ⊆ C	"A:                        --x-------
+B:                                 -----------"	"B:                                 ------
+C:                          ---------------"
+Some A are not B. All C are B.	Some C are A.	neutral	symbolic	no	2	euler_1_OA2	OAI	A \ B ≠ ∅	C ⊆ B	"A:                        --x-------
+B:                                 -----------"	"C:                                 ------
+B:                          ---------------"
+Some A are B. All B are C.	Some C are not A.	neutral	symbolic	no	4	euler_1_IA4	IAO	A ∩ B ≠ ∅	B ⊆ C	"A:                        -----x----
+B:                           --x---------"	"B:                                 ------
+C:                          ---------------"
+No A are B. All C are B.	All C are A.	neutral	symbolic	no	2	euler_1_EA2	EAA	A ∩ B = ∅	C ⊆ B	"A:                      -------
+B:                                    --------"	"C:                                 ------
+B:                          ---------------"
+All B are A. Some C are not B.	Some C are not A.	neutral	symbolic	yes	1	euler_1_AO1	AOO	B ⊆ A	C \ B ≠ ∅	"B:                                 ------
+A:                          ---------------"	"C:                        --x-------
+B:                                 -----------"
+All A are B. Some C are B.	No C are A.	neutral	symbolic	no	2	euler_1_AI2	AIE	A ⊆ B	C ∩ B ≠ ∅	"A:                                 ------
+B:                          ---------------"	"C:                        -----x----
+B:                           --x---------"
+All A are B. No B are C.	All C are A.	neutral	symbolic	no	4	euler_1_AE4	AEA	A ⊆ B	B ∩ C = ∅	"A:                                 ------
+B:                          ---------------"	"B:                      -------
+C:                                    --------"
+All A are B. Some B are C.	All C are A.	neutral	symbolic	no	4	euler_1_AI4	AIA	A ⊆ B	B ∩ C ≠ ∅	"A:                                 ------
+B:                          ---------------"	"B:                        -----x----
+C:                           --x---------"
+All A are B. Some B are not C.	Some C are not A.	neutral	symbolic	yes	4	euler_1_AO4	AOO	A ⊆ B	B \ C ≠ ∅	"A:                                 ------
+B:                          ---------------"	"B:                        --x-------
+C:                                 -----------"
+Some B are not A. All C are B.	Some C are not A.	neutral	symbolic	yes	1	euler_1_OA1	OAO	B \ A ≠ ∅	C ⊆ B	"B:                        --x-------
+A:                                 -----------"	"C:                                 ------
+B:                          ---------------"
+All A are B. Some B are not C.	No C are A.	neutral	symbolic	no	4	euler_1_AO4	AOE	A ⊆ B	B \ C ≠ ∅	"A:                                 ------
+B:                          ---------------"	"B:                        --x-------
+C:                                 -----------"
+All B are A. Some B are C.	Some C are not A.	neutral	symbolic	no	3	euler_1_AI3	AIO	B ⊆ A	B ∩ C ≠ ∅	"B:                                 ------
+A:                          ---------------"	"B:                        -----x----
+C:                           --x---------"
+Some A are not B. All C are B.	No C are A.	neutral	symbolic	no	2	euler_1_OA2	OAE	A \ B ≠ ∅	C ⊆ B	"A:                        --x-------
+B:                                 -----------"	"C:                                 ------
+B:                          ---------------"
+All B are A. No B are C.	No C are A.	neutral	symbolic	yes	3	euler_1_AE3	AEE	B ⊆ A	B ∩ C = ∅	"B:                                 ------
+A:                          ---------------"	"B:                      -------
+C:                                    --------"
+Some A are not B. All B are C.	No C are A.	neutral	symbolic	no	4	euler_1_OA4	OAE	A \ B ≠ ∅	B ⊆ C	"A:                        --x-------
+B:                                 -----------"	"B:                                 ------
+C:                          ---------------"
+All dogs are animals. No animals are robots.	Some robots are dogs.	contradiction	congruent	no	4	euler_3_AE4	AEI	dogs ⊆ animals	animals ∩ robots = ∅	"dogs:                              ------
+animals:                    ---------------"	"animals:                -------
+robots:                               --------"
+No shark are tuna. Some fish are shark.	All fish are tuna.	contradiction	congruent	no	1	euler_22_EI1	EIA	shark ∩ tuna = ∅	fish ∩ shark ≠ ∅	"shark:                  -------
+tuna:                                 --------"	"fish:                     -----x----
+shark:                       --x---------"
+No females are males. Some males are students.	All students are females.	contradiction	congruent	no	4	euler_16_EI4	EIA	females ∩ males = ∅	males ∩ students ≠ ∅	"females:                -------
+males:                                --------"	"males:                    -----x----
+students:                    --x---------"
+Some trees are plants. All plants are living things.	No living things are trees.	contradiction	congruent	no	4	euler_13_IA4	IAE	trees ∩ plants ≠ ∅	plants ⊆ living things	"trees:                    -----x----
+plants:                      --x---------"	"plants:                            ------
+living things:              ---------------"
+All sparrows are birds. No birds are stones.	Some stones are sparrows.	contradiction	congruent	no	4	euler_7_AE4	AEI	sparrows ⊆ birds	birds ∩ stones = ∅	"sparrows:                          ------
+birds:                      ---------------"	"birds:                  -------
+stones:                               --------"
+Some liquor are beer. All liquor are drink.	No drink are beer.	contradiction	congruent	no	3	euler_17_IA3	IAE	liquor ∩ beer ≠ ∅	liquor ⊆ drink	"liquor:                   -----x----
+beer:                        --x---------"	"liquor:                            ------
+drink:                      ---------------"
+Some plants are trees. All plants are living things.	No living things are trees.	contradiction	congruent	no	3	euler_13_IA3	IAE	plants ∩ trees ≠ ∅	plants ⊆ living things	"plants:                   -----x----
+trees:                       --x---------"	"plants:                            ------
+living things:              ---------------"
+All baseball players are athletes. Some human beings are not athletes.	All human beings are baseball players.	contradiction	congruent	no	2	euler_10_AO2	AOA	baseball players ⊆ athletes	human beings \ athletes ≠ ∅	"baseball players:                  ------
+athletes:                   ---------------"	"human beings:             --x-------
+athletes:                          -----------"
+No females are males. Some students are males.	All students are females.	contradiction	congruent	no	2	euler_16_EI2	EIA	females ∩ males = ∅	students ∩ males ≠ ∅	"females:                -------
+males:                                --------"	"students:                 -----x----
+males:                       --x---------"
+All fruits are foods. No foods are stones.	Some stones are fruits.	contradiction	congruent	no	4	euler_2_AE4	AEI	fruits ⊆ foods	foods ∩ stones = ∅	"fruits:                            ------
+foods:                      ---------------"	"foods:                  -------
+stones:                               --------"
+No shark are tuna. Some shark are fish.	All fish are tuna.	contradiction	congruent	no	3	euler_22_EI3	EIA	shark ∩ tuna = ∅	shark ∩ fish ≠ ∅	"shark:                  -------
+tuna:                                 --------"	"shark:                    -----x----
+fish:                        --x---------"
+No males are females. Some males are students.	All students are females.	contradiction	congruent	no	3	euler_16_EI3	EIA	males ∩ females = ∅	males ∩ students ≠ ∅	"males:                  -------
+females:                              --------"	"males:                    -----x----
+students:                    --x---------"
+All dogs are animals. No robots are animals.	Some robots are dogs.	contradiction	congruent	no	2	euler_3_AE2	AEI	dogs ⊆ animals	robots ∩ animals = ∅	"dogs:                              ------
+animals:                    ---------------"	"robots:                 -------
+animals:                              --------"
+All sparrows are birds. No stones are birds.	Some stones are sparrows.	contradiction	congruent	no	2	euler_7_AE2	AEI	sparrows ⊆ birds	stones ∩ birds = ∅	"sparrows:                          ------
+birds:                      ---------------"	"stones:                 -------
+birds:                                --------"
+Some beer are liquor. All liquor are drink.	No drink are beer.	contradiction	congruent	no	4	euler_17_IA4	IAE	beer ∩ liquor ≠ ∅	liquor ⊆ drink	"beer:                     -----x----
+liquor:                      --x---------"	"liquor:                            ------
+drink:                      ---------------"
+All beer are liquor. Some drink are not liquor.	All drink are beer.	contradiction	congruent	no	2	euler_17_AO2	AOA	beer ⊆ liquor	drink \ liquor ≠ ∅	"beer:                              ------
+liquor:                     ---------------"	"drink:                    --x-------
+liquor:                            -----------"
+Some tomatoes are vegetables. All tomatoes are plants.	No plants are vegetables.	contradiction	congruent	no	3	euler_20_IA3	IAE	tomatoes ∩ vegetables ≠ ∅	tomatoes ⊆ plants	"tomatoes:                 -----x----
+vegetables:                  --x---------"	"tomatoes:                          ------
+plants:                     ---------------"
+Some shark are not tuna. All shark are fish.	All fish are tuna.	contradiction	congruent	no	3	euler_22_OA3	OAA	shark \ tuna ≠ ∅	shark ⊆ fish	"shark:                    --x-------
+tuna:                              -----------"	"shark:                             ------
+fish:                       ---------------"
+Some vegetables are tomatoes. All tomatoes are plants.	No plants are vegetables.	contradiction	congruent	no	4	euler_20_IA4	IAE	vegetables ∩ tomatoes ≠ ∅	tomatoes ⊆ plants	"vegetables:               -----x----
+tomatoes:                    --x---------"	"tomatoes:                          ------
+plants:                     ---------------"
+All sparrows are birds. Some stones are not birds.	All stones are sparrows.	contradiction	congruent	no	2	euler_7_AO2	AOA	sparrows ⊆ birds	stones \ birds ≠ ∅	"sparrows:                          ------
+birds:                      ---------------"	"stones:                   --x-------
+birds:                             -----------"
+All fruits are foods. No stones are foods.	Some stones are fruits.	contradiction	congruent	no	2	euler_2_AE2	AEI	fruits ⊆ foods	stones ∩ foods = ∅	"fruits:                            ------
+foods:                      ---------------"	"stones:                 -------
+foods:                                --------"
+No tuna are shark. Some fish are shark.	All fish are tuna.	contradiction	congruent	no	2	euler_22_EI2	EIA	tuna ∩ shark = ∅	fish ∩ shark ≠ ∅	"tuna:                   -------
+shark:                                --------"	"fish:                     -----x----
+shark:                       --x---------"
+All fruits are foods. Some stones are not foods.	All stones are fruits.	contradiction	congruent	no	2	euler_2_AO2	AOA	fruits ⊆ foods	stones \ foods ≠ ∅	"fruits:                            ------
+foods:                      ---------------"	"stones:                   --x-------
+foods:                             -----------"
+All pigeons are birds. No birds are cats.	Some cats are pigeons.	contradiction	congruent	no	4	euler_9_AE4	AEI	pigeons ⊆ birds	birds ∩ cats = ∅	"pigeons:                           ------
+birds:                      ---------------"	"birds:                  -------
+cats:                                 --------"
+All vegetables are tomatoes. Some plants are not tomatoes.	All plants are vegetables.	contradiction	congruent	no	2	euler_20_AO2	AOA	vegetables ⊆ tomatoes	plants \ tomatoes ≠ ∅	"vegetables:                        ------
+tomatoes:                   ---------------"	"plants:                   --x-------
+tomatoes:                          -----------"
+All pigeons are birds. No cats are birds.	Some cats are pigeons.	contradiction	congruent	no	2	euler_9_AE2	AEI	pigeons ⊆ birds	cats ∩ birds = ∅	"pigeons:                           ------
+birds:                      ---------------"	"cats:                   -------
+birds:                                --------"
+Some athletes are baseball players. All athletes are human beings.	No human beings are baseball players.	contradiction	congruent	no	3	euler_10_IA3	IAE	athletes ∩ baseball players ≠ ∅	athletes ⊆ human beings	"athletes:                 -----x----
+baseball players:            --x---------"	"athletes:                          ------
+human beings:               ---------------"
+Some baseball players are athletes. All athletes are human beings.	No human beings are baseball players.	contradiction	congruent	no	4	euler_10_IA4	IAE	baseball players ∩ athletes ≠ ∅	athletes ⊆ human beings	"baseball players:         -----x----
+athletes:                    --x---------"	"athletes:                          ------
+human beings:               ---------------"
+All tomatoes are plants. Some animals are not plants.	All animals are tomatoes.	contradiction	congruent	no	2	euler_11_AO2	AOA	tomatoes ⊆ plants	animals \ plants ≠ ∅	"tomatoes:                          ------
+plants:                     ---------------"	"animals:                  --x-------
+plants:                            -----------"
+Some plants are not trees. All plants are living things.	All living things are trees.	contradiction	congruent	no	3	euler_13_OA3	OAA	plants \ trees ≠ ∅	plants ⊆ living things	"plants:                   --x-------
+trees:                             -----------"	"plants:                            ------
+living things:              ---------------"
+Some athletes are not baseball players. All athletes are human beings.	All human beings are baseball players.	contradiction	congruent	no	3	euler_10_OA3	OAA	athletes \ baseball players ≠ ∅	athletes ⊆ human beings	"athletes:                 --x-------
+baseball players:                  -----------"	"athletes:                          ------
+human beings:               ---------------"
+Some liquor are not beer. All liquor are drink.	All drink are beer.	contradiction	congruent	no	3	euler_17_OA3	OAA	liquor \ beer ≠ ∅	liquor ⊆ drink	"liquor:                   --x-------
+beer:                              -----------"	"liquor:                            ------
+drink:                      ---------------"
+All tomatoes are plants. No animals are plants.	Some animals are tomatoes.	contradiction	congruent	no	2	euler_11_AE2	AEI	tomatoes ⊆ plants	animals ∩ plants = ∅	"tomatoes:                          ------
+plants:                     ---------------"	"animals:                -------
+plants:                               --------"
+No males are females. Some students are males.	All students are females.	contradiction	congruent	no	1	euler_16_EI1	EIA	males ∩ females = ∅	students ∩ males ≠ ∅	"males:                  -------
+females:                              --------"	"students:                 -----x----
+males:                       --x---------"
+No tuna are shark. Some shark are fish.	All fish are tuna.	contradiction	congruent	no	4	euler_22_EI4	EIA	tuna ∩ shark = ∅	shark ∩ fish ≠ ∅	"tuna:                   -------
+shark:                                --------"	"shark:                    -----x----
+fish:                        --x---------"
+All trees are plants. Some living things are not plants.	All living things are trees.	contradiction	congruent	no	2	euler_13_AO2	AOA	trees ⊆ plants	living things \ plants ≠ ∅	"trees:                             ------
+plants:                     ---------------"	"living things:            --x-------
+plants:                            -----------"
+All dogs are animals. Some robots are not animals.	All robots are dogs.	contradiction	congruent	no	2	euler_3_AO2	AOA	dogs ⊆ animals	robots \ animals ≠ ∅	"dogs:                              ------
+animals:                    ---------------"	"robots:                   --x-------
+animals:                           -----------"
+Some tomatoes are not vegetables. All tomatoes are plants.	All plants are vegetables.	contradiction	congruent	no	3	euler_20_OA3	OAA	tomatoes \ vegetables ≠ ∅	tomatoes ⊆ plants	"tomatoes:                 --x-------
+vegetables:                        -----------"	"tomatoes:                          ------
+plants:                     ---------------"
+All tomatoes are plants. No plants are animals.	Some animals are tomatoes.	contradiction	congruent	no	4	euler_11_AE4	AEI	tomatoes ⊆ plants	plants ∩ animals = ∅	"tomatoes:                          ------
+plants:                     ---------------"	"plants:                 -------
+animals:                              --------"
+All pigeons are birds. Some cats are not birds.	All cats are pigeons.	contradiction	congruent	no	2	euler_9_AO2	AOA	pigeons ⊆ birds	cats \ birds ≠ ∅	"pigeons:                           ------
+birds:                      ---------------"	"cats:                     --x-------
+birds:                             -----------"
+No females are males. Some students are males.	Some students are not females.	entailment	congruent	no	2	euler_16_EI2	EIO	females ∩ males = ∅	students ∩ males ≠ ∅	"females:                -------
+males:                                --------"	"students:                 -----x----
+males:                       --x---------"
+All tomatoes are plants. No animals are plants.	No animals are tomatoes.	entailment	congruent	no	2	euler_11_AE2	AEE	tomatoes ⊆ plants	animals ∩ plants = ∅	"tomatoes:                          ------
+plants:                     ---------------"	"animals:                -------
+plants:                               --------"
+No shark are tuna. Some fish are shark.	Some fish are not tuna.	entailment	congruent	no	1	euler_22_EI1	EIO	shark ∩ tuna = ∅	fish ∩ shark ≠ ∅	"shark:                  -------
+tuna:                                 --------"	"fish:                     -----x----
+shark:                       --x---------"
+Some shark are not tuna. All shark are fish.	Some fish are not tuna.	entailment	congruent	no	3	euler_22_OA3	OAO	shark \ tuna ≠ ∅	shark ⊆ fish	"shark:                    --x-------
+tuna:                              -----------"	"shark:                             ------
+fish:                       ---------------"
+All pigeons are birds. No cats are birds.	No cats are pigeons.	entailment	congruent	no	2	euler_9_AE2	AEE	pigeons ⊆ birds	cats ∩ birds = ∅	"pigeons:                           ------
+birds:                      ---------------"	"cats:                   -------
+birds:                                --------"
+No tuna are shark. Some fish are shark.	Some fish are not tuna.	entailment	congruent	no	2	euler_22_EI2	EIO	tuna ∩ shark = ∅	fish ∩ shark ≠ ∅	"tuna:                   -------
+shark:                                --------"	"fish:                     -----x----
+shark:                       --x---------"
+All beer are liquor. Some drink are not liquor.	Some drink are not beer.	entailment	congruent	no	2	euler_17_AO2	AOO	beer ⊆ liquor	drink \ liquor ≠ ∅	"beer:                              ------
+liquor:                     ---------------"	"drink:                    --x-------
+liquor:                            -----------"
+Some tomatoes are not vegetables. All tomatoes are plants.	Some plants are not vegetables.	entailment	congruent	no	3	euler_20_OA3	OAO	tomatoes \ vegetables ≠ ∅	tomatoes ⊆ plants	"tomatoes:                 --x-------
+vegetables:                        -----------"	"tomatoes:                          ------
+plants:                     ---------------"
+Some liquor are not beer. All liquor are drink.	Some drink are not beer.	entailment	congruent	no	3	euler_17_OA3	OAO	liquor \ beer ≠ ∅	liquor ⊆ drink	"liquor:                   --x-------
+beer:                              -----------"	"liquor:                            ------
+drink:                      ---------------"
+Some plants are not trees. All plants are living things.	Some living things are not trees.	entailment	congruent	no	3	euler_13_OA3	OAO	plants \ trees ≠ ∅	plants ⊆ living things	"plants:                   --x-------
+trees:                             -----------"	"plants:                            ------
+living things:              ---------------"
+Some plants are trees. All plants are living things.	Some living things are trees.	entailment	congruent	no	3	euler_13_IA3	IAI	plants ∩ trees ≠ ∅	plants ⊆ living things	"plants:                   -----x----
+trees:                       --x---------"	"plants:                            ------
+living things:              ---------------"
+All pigeons are birds. Some cats are not birds.	Some cats are not pigeons.	entailment	congruent	no	2	euler_9_AO2	AOO	pigeons ⊆ birds	cats \ birds ≠ ∅	"pigeons:                           ------
+birds:                      ---------------"	"cats:                     --x-------
+birds:                             -----------"
+All tomatoes are plants. Some animals are not plants.	Some animals are not tomatoes.	entailment	congruent	no	2	euler_11_AO2	AOO	tomatoes ⊆ plants	animals \ plants ≠ ∅	"tomatoes:                          ------
+plants:                     ---------------"	"animals:                  --x-------
+plants:                            -----------"
+All baseball players are athletes. Some human beings are not athletes.	Some human beings are not baseball players.	entailment	congruent	no	2	euler_10_AO2	AOO	baseball players ⊆ athletes	human beings \ athletes ≠ ∅	"baseball players:                  ------
+athletes:                   ---------------"	"human beings:             --x-------
+athletes:                          -----------"
+Some beer are liquor. All liquor are drink.	Some drink are beer.	entailment	congruent	no	4	euler_17_IA4	IAI	beer ∩ liquor ≠ ∅	liquor ⊆ drink	"beer:                     -----x----
+liquor:                      --x---------"	"liquor:                            ------
+drink:                      ---------------"
+All trees are plants. Some living things are not plants.	Some living things are not trees.	entailment	congruent	no	2	euler_13_AO2	AOO	trees ⊆ plants	living things \ plants ≠ ∅	"trees:                             ------
+plants:                     ---------------"	"living things:            --x-------
+plants:                            -----------"
+All dogs are animals. No robots are animals.	No robots are dogs.	entailment	congruent	no	2	euler_3_AE2	AEE	dogs ⊆ animals	robots ∩ animals = ∅	"dogs:                              ------
+animals:                    ---------------"	"robots:                 -------
+animals:                              --------"
+Some trees are plants. All plants are living things.	Some living things are trees.	entailment	congruent	no	4	euler_13_IA4	IAI	trees ∩ plants ≠ ∅	plants ⊆ living things	"trees:                    -----x----
+plants:                      --x---------"	"plants:                            ------
+living things:              ---------------"
+No shark are tuna. Some shark are fish.	Some fish are not tuna.	entailment	congruent	no	3	euler_22_EI3	EIO	shark ∩ tuna = ∅	shark ∩ fish ≠ ∅	"shark:                  -------
+tuna:                                 --------"	"shark:                    -----x----
+fish:                        --x---------"
+Some athletes are baseball players. All athletes are human beings.	Some human beings are baseball players.	entailment	congruent	no	3	euler_10_IA3	IAI	athletes ∩ baseball players ≠ ∅	athletes ⊆ human beings	"athletes:                 -----x----
+baseball players:            --x---------"	"athletes:                          ------
+human beings:               ---------------"
+Some vegetables are tomatoes. All tomatoes are plants.	Some plants are vegetables.	entailment	congruent	no	4	euler_20_IA4	IAI	vegetables ∩ tomatoes ≠ ∅	tomatoes ⊆ plants	"vegetables:               -----x----
+tomatoes:                    --x---------"	"tomatoes:                          ------
+plants:                     ---------------"
+Some liquor are beer. All liquor are drink.	Some drink are beer.	entailment	congruent	no	3	euler_17_IA3	IAI	liquor ∩ beer ≠ ∅	liquor ⊆ drink	"liquor:                   -----x----
+beer:                        --x---------"	"liquor:                            ------
+drink:                      ---------------"
+All pigeons are birds. No birds are cats.	No cats are pigeons.	entailment	congruent	no	4	euler_9_AE4	AEE	pigeons ⊆ birds	birds ∩ cats = ∅	"pigeons:                           ------
+birds:                      ---------------"	"birds:                  -------
+cats:                                 --------"
+All fruits are foods. Some stones are not foods.	Some stones are not fruits.	entailment	congruent	no	2	euler_2_AO2	AOO	fruits ⊆ foods	stones \ foods ≠ ∅	"fruits:                            ------
+foods:                      ---------------"	"stones:                   --x-------
+foods:                             -----------"
+Some athletes are not baseball players. All athletes are human beings.	Some human beings are not baseball players.	entailment	congruent	no	3	euler_10_OA3	OAO	athletes \ baseball players ≠ ∅	athletes ⊆ human beings	"athletes:                 --x-------
+baseball players:                  -----------"	"athletes:                          ------
+human beings:               ---------------"
+All tomatoes are plants. No plants are animals.	No animals are tomatoes.	entailment	congruent	no	4	euler_11_AE4	AEE	tomatoes ⊆ plants	plants ∩ animals = ∅	"tomatoes:                          ------
+plants:                     ---------------"	"plants:                 -------
+animals:                              --------"
+All sparrows are birds. No birds are stones.	No stones are sparrows.	entailment	congruent	no	4	euler_7_AE4	AEE	sparrows ⊆ birds	birds ∩ stones = ∅	"sparrows:                          ------
+birds:                      ---------------"	"birds:                  -------
+stones:                               --------"
+No males are females. Some students are males.	Some students are not females.	entailment	congruent	no	1	euler_16_EI1	EIO	males ∩ females = ∅	students ∩ males ≠ ∅	"males:                  -------
+females:                              --------"	"students:                 -----x----
+males:                       --x---------"
+All sparrows are birds. Some stones are not birds.	Some stones are not sparrows.	entailment	congruent	no	2	euler_7_AO2	AOO	sparrows ⊆ birds	stones \ birds ≠ ∅	"sparrows:                          ------
+birds:                      ---------------"	"stones:                   --x-------
+birds:                             -----------"
+All vegetables are tomatoes. Some plants are not tomatoes.	Some plants are not vegetables.	entailment	congruent	no	2	euler_20_AO2	AOO	vegetables ⊆ tomatoes	plants \ tomatoes ≠ ∅	"vegetables:                        ------
+tomatoes:                   ---------------"	"plants:                   --x-------
+tomatoes:                          -----------"
+Some baseball players are athletes. All athletes are human beings.	Some human beings are baseball players.	entailment	congruent	no	4	euler_10_IA4	IAI	baseball players ∩ athletes ≠ ∅	athletes ⊆ human beings	"baseball players:         -----x----
+athletes:                    --x---------"	"athletes:                          ------
+human beings:               ---------------"
+All dogs are animals. No animals are robots.	No robots are dogs.	entailment	congruent	no	4	euler_3_AE4	AEE	dogs ⊆ animals	animals ∩ robots = ∅	"dogs:                              ------
+animals:                    ---------------"	"animals:                -------
+robots:                               --------"
+All fruits are foods. No foods are stones.	No stones are fruits.	entailment	congruent	no	4	euler_2_AE4	AEE	fruits ⊆ foods	foods ∩ stones = ∅	"fruits:                            ------
+foods:                      ---------------"	"foods:                  -------
+stones:                               --------"
+All fruits are foods. No stones are foods.	No stones are fruits.	entailment	congruent	no	2	euler_2_AE2	AEE	fruits ⊆ foods	stones ∩ foods = ∅	"fruits:                            ------
+foods:                      ---------------"	"stones:                 -------
+foods:                                --------"
+No tuna are shark. Some shark are fish.	Some fish are not tuna.	entailment	congruent	no	4	euler_22_EI4	EIO	tuna ∩ shark = ∅	shark ∩ fish ≠ ∅	"tuna:                   -------
+shark:                                --------"	"shark:                    -----x----
+fish:                        --x---------"
+No females are males. Some males are students.	Some students are not females.	entailment	congruent	no	4	euler_16_EI4	EIO	females ∩ males = ∅	males ∩ students ≠ ∅	"females:                -------
+males:                                --------"	"males:                    -----x----
+students:                    --x---------"
+No males are females. Some males are students.	Some students are not females.	entailment	congruent	no	3	euler_16_EI3	EIO	males ∩ females = ∅	males ∩ students ≠ ∅	"males:                  -------
+females:                              --------"	"males:                    -----x----
+students:                    --x---------"
+All sparrows are birds. No stones are birds.	No stones are sparrows.	entailment	congruent	no	2	euler_7_AE2	AEE	sparrows ⊆ birds	stones ∩ birds = ∅	"sparrows:                          ------
+birds:                      ---------------"	"stones:                 -------
+birds:                                --------"
+Some tomatoes are vegetables. All tomatoes are plants.	Some plants are vegetables.	entailment	congruent	no	3	euler_20_IA3	IAI	tomatoes ∩ vegetables ≠ ∅	tomatoes ⊆ plants	"tomatoes:                 -----x----
+vegetables:                  --x---------"	"tomatoes:                          ------
+plants:                     ---------------"
+All dogs are animals. Some robots are not animals.	Some robots are not dogs.	entailment	congruent	no	2	euler_3_AO2	AOO	dogs ⊆ animals	robots \ animals ≠ ∅	"dogs:                              ------
+animals:                    ---------------"	"robots:                   --x-------
+animals:                           -----------"
+No females are males. Some males are students.	No students are females.	neutral	congruent	no	4	euler_16_EI4	EIE	females ∩ males = ∅	males ∩ students ≠ ∅	"females:                -------
+males:                                --------"	"males:                    -----x----
+students:                    --x---------"
+All trumpets are instruments. Some instruments are string instruments.	No string instruments are trumpets.	neutral	congruent	no	4	euler_14_AI4	AIE	trumpets ⊆ instruments	instruments ∩ string instruments ≠ ∅	"trumpets:                          ------
+instruments:                ---------------"	"instruments:              -----x----
+string instruments:          --x---------"
+All tomatoes are plants. No animals are plants.	All animals are tomatoes.	neutral	congruent	no	2	euler_11_AE2	AEA	tomatoes ⊆ plants	animals ∩ plants = ∅	"tomatoes:                          ------
+plants:                     ---------------"	"animals:                -------
+plants:                               --------"
+Some plants are not trees. All plants are living things.	No living things are trees.	neutral	congruent	no	3	euler_13_OA3	OAE	plants \ trees ≠ ∅	plants ⊆ living things	"plants:                   --x-------
+trees:                             -----------"	"plants:                            ------
+living things:              ---------------"
+All dogs are animals. Some robots are not animals.	Some robots are dogs.	neutral	congruent	no	2	euler_3_AO2	AOI	dogs ⊆ animals	robots \ animals ≠ ∅	"dogs:                              ------
+animals:                    ---------------"	"robots:                   --x-------
+animals:                           -----------"
+All vegetables are tomatoes. All tomatoes are plants.	All plants are vegetables.	neutral	congruent	yes	4	euler_20_AA4	AAA	vegetables ⊆ tomatoes	tomatoes ⊆ plants	"vegetables:                        ------
+tomatoes:                   ---------------"	"tomatoes:                          ------
+plants:                     ---------------"
+Some instruments are trumpets. All string instruments are instruments.	All string instruments are trumpets.	neutral	congruent	no	1	euler_14_IA1	IAA	instruments ∩ trumpets ≠ ∅	string instruments ⊆ instruments	"instruments:              -----x----
+trumpets:                    --x---------"	"string instruments:                ------
+instruments:                ---------------"
+All wicked people are human beings. Some human beings are not thieves.	All thieves are wicked people.	neutral	congruent	no	4	euler_21_AO4	AOA	wicked people ⊆ human beings	human beings \ thieves ≠ ∅	"wicked people:                     ------
+human beings:               ---------------"	"human beings:             --x-------
+thieves:                           -----------"
+All trumpets are instruments. All string instruments are instruments.	Some string instruments are not trumpets.	neutral	congruent	no	2	euler_14_AA2	AAO	trumpets ⊆ instruments	string instruments ⊆ instruments	"trumpets:                          ------
+instruments:                ---------------"	"string instruments:                ------
+instruments:                ---------------"
+Some shark are not tuna. All shark are fish.	Some fish are tuna.	neutral	congruent	no	3	euler_22_OA3	OAI	shark \ tuna ≠ ∅	shark ⊆ fish	"shark:                    --x-------
+tuna:                              -----------"	"shark:                             ------
+fish:                       ---------------"
+All tomatoes are plants. Some animals are not plants.	No animals are tomatoes.	neutral	congruent	no	2	euler_11_AO2	AOE	tomatoes ⊆ plants	animals \ plants ≠ ∅	"tomatoes:                          ------
+plants:                     ---------------"	"animals:                  --x-------
+plants:                            -----------"
+All tomatoes are plants. No animals are plants.	Some animals are not tomatoes.	neutral	congruent	no	2	euler_11_AE2	AEO	tomatoes ⊆ plants	animals ∩ plants = ∅	"tomatoes:                          ------
+plants:                     ---------------"	"animals:                -------
+plants:                               --------"
+All wicked people are human beings. Some human beings are not thieves.	No thieves are wicked people.	neutral	congruent	no	4	euler_21_AO4	AOE	wicked people ⊆ human beings	human beings \ thieves ≠ ∅	"wicked people:                     ------
+human beings:               ---------------"	"human beings:             --x-------
+thieves:                           -----------"
+Some human beings are wicked people. All thieves are human beings.	Some thieves are not wicked people.	neutral	congruent	no	1	euler_21_IA1	IAO	human beings ∩ wicked people ≠ ∅	thieves ⊆ human beings	"human beings:             -----x----
+wicked people:               --x---------"	"thieves:                           ------
+human beings:               ---------------"
+All vegetables are tomatoes. All tomatoes are plants.	No plants are vegetables.	neutral	congruent	no	4	euler_20_AA4	AAE	vegetables ⊆ tomatoes	tomatoes ⊆ plants	"vegetables:                        ------
+tomatoes:                   ---------------"	"tomatoes:                          ------
+plants:                     ---------------"
+Some tuna are not shark. All shark are fish.	Some fish are tuna.	neutral	congruent	no	4	euler_22_OA4	OAI	tuna \ shark ≠ ∅	shark ⊆ fish	"tuna:                     --x-------
+shark:                             -----------"	"shark:                             ------
+fish:                       ---------------"
+All human beings are mammals. Some horses are mammals.	All horses are human beings.	neutral	congruent	no	2	euler_15_AI2	AIA	human beings ⊆ mammals	horses ∩ mammals ≠ ∅	"human beings:                      ------
+mammals:                    ---------------"	"horses:                   -----x----
+mammals:                     --x---------"
+All beer are liquor. All liquor are drink.	All drink are beer.	neutral	congruent	yes	4	euler_17_AA4	AAA	beer ⊆ liquor	liquor ⊆ drink	"beer:                              ------
+liquor:                     ---------------"	"liquor:                            ------
+drink:                      ---------------"
+All fruits are foods. No foods are stones.	Some stones are not fruits.	neutral	congruent	no	4	euler_2_AE4	AEO	fruits ⊆ foods	foods ∩ stones = ∅	"fruits:                            ------
+foods:                      ---------------"	"foods:                  -------
+stones:                               --------"
+All trees are plants. All plants are living things.	No living things are trees.	neutral	congruent	no	4	euler_13_AA4	AAE	trees ⊆ plants	plants ⊆ living things	"trees:                             ------
+plants:                     ---------------"	"plants:                            ------
+living things:              ---------------"
+All wicked people are human beings. Some human beings are thieves.	Some thieves are not wicked people.	neutral	congruent	no	4	euler_21_AI4	AIO	wicked people ⊆ human beings	human beings ∩ thieves ≠ ∅	"wicked people:                     ------
+human beings:               ---------------"	"human beings:             -----x----
+thieves:                     --x---------"
+All vegetables are tomatoes. Some plants are not tomatoes.	Some plants are vegetables.	neutral	congruent	no	2	euler_20_AO2	AOI	vegetables ⊆ tomatoes	plants \ tomatoes ≠ ∅	"vegetables:                        ------
+tomatoes:                   ---------------"	"plants:                   --x-------
+tomatoes:                          -----------"
+No tuna are shark. All shark are fish.	Some fish are tuna.	neutral	congruent	no	4	euler_22_EA4	EAI	tuna ∩ shark = ∅	shark ⊆ fish	"tuna:                   -------
+shark:                                --------"	"shark:                             ------
+fish:                       ---------------"
+Some human beings are wicked people. All thieves are human beings.	Some thieves are wicked people.	neutral	congruent	yes	1	euler_21_IA1	IAI	human beings ∩ wicked people ≠ ∅	thieves ⊆ human beings	"human beings:             -----x----
+wicked people:               --x---------"	"thieves:                           ------
+human beings:               ---------------"
+All wicked people are human beings. All thieves are human beings.	Some thieves are wicked people.	neutral	congruent	no	2	euler_21_AA2	AAI	wicked people ⊆ human beings	thieves ⊆ human beings	"wicked people:                     ------
+human beings:               ---------------"	"thieves:                           ------
+human beings:               ---------------"
+All baseball players are athletes. Some human beings are athletes.	Some human beings are baseball players.	neutral	congruent	yes	2	euler_10_AI2	AII	baseball players ⊆ athletes	human beings ∩ athletes ≠ ∅	"baseball players:                  ------
+athletes:                   ---------------"	"human beings:             -----x----
+athletes:                    --x---------"
+All human beings are mammals. Some mammals are horses.	Some horses are not human beings.	neutral	congruent	no	4	euler_15_AI4	AIO	human beings ⊆ mammals	mammals ∩ horses ≠ ∅	"human beings:                      ------
+mammals:                    ---------------"	"mammals:                  -----x----
+horses:                      --x---------"
+All baseball players are athletes. Some human beings are athletes.	Some human beings are not baseball players.	neutral	congruent	no	2	euler_10_AI2	AIO	baseball players ⊆ athletes	human beings ∩ athletes ≠ ∅	"baseball players:                  ------
+athletes:                   ---------------"	"human beings:             -----x----
+athletes:                    --x---------"
+All sparrows are birds. Some birds are not stones.	Some stones are sparrows.	neutral	congruent	no	4	euler_7_AO4	AOI	sparrows ⊆ birds	birds \ stones ≠ ∅	"sparrows:                          ------
+birds:                      ---------------"	"birds:                    --x-------
+stones:                            -----------"
+Some human beings are not wicked people. All thieves are human beings.	Some thieves are not wicked people.	neutral	congruent	yes	1	euler_21_OA1	OAO	human beings \ wicked people ≠ ∅	thieves ⊆ human beings	"human beings:             --x-------
+wicked people:                     -----------"	"thieves:                           ------
+human beings:               ---------------"
+All beer are liquor. All liquor are drink.	Some drink are beer.	neutral	congruent	no	4	euler_17_AA4	AAI	beer ⊆ liquor	liquor ⊆ drink	"beer:                              ------
+liquor:                     ---------------"	"liquor:                            ------
+drink:                      ---------------"
+All dogs are animals. No animals are robots.	Some robots are not dogs.	neutral	congruent	no	4	euler_3_AE4	AEO	dogs ⊆ animals	animals ∩ robots = ∅	"dogs:                              ------
+animals:                    ---------------"	"animals:                -------
+robots:                               --------"
+All trees are plants. Some living things are plants.	Some living things are trees.	neutral	congruent	yes	2	euler_13_AI2	AII	trees ⊆ plants	living things ∩ plants ≠ ∅	"trees:                             ------
+plants:                     ---------------"	"living things:            -----x----
+plants:                      --x---------"
+All beer are liquor. Some drink are liquor.	Some drink are beer.	neutral	congruent	yes	2	euler_17_AI2	AII	beer ⊆ liquor	drink ∩ liquor ≠ ∅	"beer:                              ------
+liquor:                     ---------------"	"drink:                    -----x----
+liquor:                      --x---------"
+All human beings are mammals. All horses are mammals.	All horses are human beings.	neutral	congruent	yes	2	euler_15_AA2	AAA	human beings ⊆ mammals	horses ⊆ mammals	"human beings:                      ------
+mammals:                    ---------------"	"horses:                            ------
+mammals:                    ---------------"
+All baseball players are athletes. Some athletes are human beings.	No human beings are baseball players.	neutral	congruent	no	4	euler_10_AI4	AIE	baseball players ⊆ athletes	athletes ∩ human beings ≠ ∅	"baseball players:                  ------
+athletes:                   ---------------"	"athletes:                 -----x----
+human beings:                --x---------"
+Some vegetables are tomatoes. All tomatoes are plants.	Some plants are not vegetables.	neutral	congruent	no	4	euler_20_IA4	IAO	vegetables ∩ tomatoes ≠ ∅	tomatoes ⊆ plants	"vegetables:               -----x----
+tomatoes:                    --x---------"	"tomatoes:                          ------
+plants:                     ---------------"
+All fruits are foods. Some foods are not stones.	All stones are fruits.	neutral	congruent	no	4	euler_2_AO4	AOA	fruits ⊆ foods	foods \ stones ≠ ∅	"fruits:                            ------
+foods:                      ---------------"	"foods:                    --x-------
+stones:                            -----------"
+All beer are liquor. Some liquor are drink.	No drink are beer.	neutral	congruent	no	4	euler_17_AI4	AIE	beer ⊆ liquor	liquor ∩ drink ≠ ∅	"beer:                              ------
+liquor:                     ---------------"	"liquor:                   -----x----
+drink:                       --x---------"
+All vegetables are tomatoes. Some plants are tomatoes.	Some plants are vegetables.	neutral	congruent	yes	2	euler_20_AI2	AII	vegetables ⊆ tomatoes	plants ∩ tomatoes ≠ ∅	"vegetables:                        ------
+tomatoes:                   ---------------"	"plants:                   -----x----
+tomatoes:                    --x---------"
+No vegetables are tomatoes. All plants are tomatoes.	Some plants are vegetables.	contradiction	incongruent	no	2	euler_20_EA2	EAI	vegetables ∩ tomatoes = ∅	plants ⊆ tomatoes	"vegetables:             -------
+tomatoes:                             --------"	"plants:                            ------
+tomatoes:                   ---------------"
+No human beings are wicked people. Some thieves are human beings.	All thieves are wicked people.	contradiction	incongruent	no	1	euler_21_EI1	EIA	human beings ∩ wicked people = ∅	thieves ∩ human beings ≠ ∅	"human beings:           -------
+wicked people:                        --------"	"thieves:                  -----x----
+human beings:                --x---------"
+No tuna are shark. All fish are shark.	Some fish are tuna.	contradiction	incongruent	no	2	euler_22_EA2	EAI	tuna ∩ shark = ∅	fish ⊆ shark	"tuna:                   -------
+shark:                                --------"	"fish:                              ------
+shark:                      ---------------"
+Some human beings are wicked people. All human beings are thieves.	No thieves are wicked people.	contradiction	incongruent	no	3	euler_21_IA3	IAE	human beings ∩ wicked people ≠ ∅	human beings ⊆ thieves	"human beings:             -----x----
+wicked people:               --x---------"	"human beings:                      ------
+thieves:                    ---------------"
+No athletes are baseball players. Some human beings are athletes.	All human beings are baseball players.	contradiction	incongruent	no	1	euler_10_EI1	EIA	athletes ∩ baseball players = ∅	human beings ∩ athletes ≠ ∅	"athletes:               -------
+baseball players:                     --------"	"human beings:             -----x----
+athletes:                    --x---------"
+All crocodiles are birds. Some crocodiles are crows.	No crows are birds.	contradiction	incongruent	no	3	euler_6_AI3	AIE	crocodiles ⊆ birds	crocodiles ∩ crows ≠ ∅	"crocodiles:                        ------
+birds:                      ---------------"	"crocodiles:               -----x----
+crows:                       --x---------"
+No metals are sand. All air are sand.	Some air are metals.	contradiction	incongruent	no	2	euler_5_EA2	EAI	metals ∩ sand = ∅	air ⊆ sand	"metals:                 -------
+sand:                                 --------"	"air:                               ------
+sand:                       ---------------"
+All students are horses. No humans are horses.	Some humans are students.	contradiction	incongruent	no	2	euler_8_AE2	AEI	students ⊆ horses	humans ∩ horses = ∅	"students:                          ------
+horses:                     ---------------"	"humans:                 -------
+horses:                               --------"
+All liquid are metals. All stones are liquid.	Some stones are not metals.	contradiction	incongruent	no	1	euler_18_AA1	AAO	liquid ⊆ metals	stones ⊆ liquid	"liquid:                            ------
+metals:                     ---------------"	"stones:                            ------
+liquid:                     ---------------"
+No sand are metals. All air are sand.	Some air are metals.	contradiction	incongruent	no	1	euler_5_EA1	EAI	sand ∩ metals = ∅	air ⊆ sand	"sand:                   -------
+metals:                               --------"	"air:                               ------
+sand:                       ---------------"
+All athletes are baseball players. All human beings are athletes.	Some human beings are not baseball players.	contradiction	incongruent	no	1	euler_10_AA1	AAO	athletes ⊆ baseball players	human beings ⊆ athletes	"athletes:                          ------
+baseball players:           ---------------"	"human beings:                      ------
+athletes:                   ---------------"
+No wicked people are human beings. All thieves are human beings.	Some thieves are wicked people.	contradiction	incongruent	no	2	euler_21_EA2	EAI	wicked people ∩ human beings = ∅	thieves ⊆ human beings	"wicked people:          -------
+human beings:                         --------"	"thieves:                           ------
+human beings:               ---------------"
+No water are metals. All iron are water.	Some iron are metals.	contradiction	incongruent	no	1	euler_19_EA1	EAI	water ∩ metals = ∅	iron ⊆ water	"water:                  -------
+metals:                               --------"	"iron:                              ------
+water:                      ---------------"
+All vegetables are tomatoes. No plants are tomatoes.	Some plants are vegetables.	contradiction	incongruent	no	2	euler_20_AE2	AEI	vegetables ⊆ tomatoes	plants ∩ tomatoes = ∅	"vegetables:                        ------
+tomatoes:                   ---------------"	"plants:                 -------
+tomatoes:                             --------"
+All ghosts are students. All human beings are ghosts.	Some human beings are not students.	contradiction	incongruent	no	1	euler_12_AA1	AAO	ghosts ⊆ students	human beings ⊆ ghosts	"ghosts:                            ------
+students:                   ---------------"	"human beings:                      ------
+ghosts:                     ---------------"
+No pigeons are birds. Some cats are birds.	All cats are pigeons.	contradiction	incongruent	no	2	euler_9_EI2	EIA	pigeons ∩ birds = ∅	cats ∩ birds ≠ ∅	"pigeons:                -------
+birds:                                --------"	"cats:                     -----x----
+birds:                       --x---------"
+Some tuna are shark. All shark are fish.	No fish are tuna.	contradiction	incongruent	no	4	euler_22_IA4	IAE	tuna ∩ shark ≠ ∅	shark ⊆ fish	"tuna:                     -----x----
+shark:                       --x---------"	"shark:                             ------
+fish:                       ---------------"
+All plants are trees. All living things are plants.	Some living things are not trees.	contradiction	incongruent	no	1	euler_13_AA1	AAO	plants ⊆ trees	living things ⊆ plants	"plants:                            ------
+trees:                      ---------------"	"living things:                     ------
+plants:                     ---------------"
+Some birds are pigeons. All birds are cats.	No cats are pigeons.	contradiction	incongruent	no	3	euler_9_IA3	IAE	birds ∩ pigeons ≠ ∅	birds ⊆ cats	"birds:                    -----x----
+pigeons:                     --x---------"	"birds:                             ------
+cats:                       ---------------"
+Some sand are not metals. All sand are air.	All air are metals.	contradiction	incongruent	no	3	euler_5_OA3	OAA	sand \ metals ≠ ∅	sand ⊆ air	"sand:                     --x-------
+metals:                            -----------"	"sand:                              ------
+air:                        ---------------"
+No crocodiles are birds. Some crocodiles are crows.	All crows are birds.	contradiction	incongruent	no	3	euler_6_EI3	EIA	crocodiles ∩ birds = ∅	crocodiles ∩ crows ≠ ∅	"crocodiles:             -------
+birds:                                --------"	"crocodiles:               -----x----
+crows:                       --x---------"
+No baseball players are athletes. Some human beings are athletes.	All human beings are baseball players.	contradiction	incongruent	no	2	euler_10_EI2	EIA	baseball players ∩ athletes = ∅	human beings ∩ athletes ≠ ∅	"baseball players:       -------
+athletes:                             --------"	"human beings:             -----x----
+athletes:                    --x---------"
+No metals are water. Some iron are water.	All iron are metals.	contradiction	incongruent	no	2	euler_19_EI2	EIA	metals ∩ water = ∅	iron ∩ water ≠ ∅	"metals:                 -------
+water:                                --------"	"iron:                     -----x----
+water:                       --x---------"
+All plants are trees. Some living things are plants.	No living things are trees.	contradiction	incongruent	no	1	euler_13_AI1	AIE	plants ⊆ trees	living things ∩ plants ≠ ∅	"plants:                            ------
+trees:                      ---------------"	"living things:            -----x----
+plants:                      --x---------"
+All foods are fruits. Some stones are foods.	No stones are fruits.	contradiction	incongruent	no	1	euler_2_AI1	AIE	foods ⊆ fruits	stones ∩ foods ≠ ∅	"foods:                             ------
+fruits:                     ---------------"	"stones:                   -----x----
+foods:                       --x---------"
+No dogs are animals. Some robots are animals.	All robots are dogs.	contradiction	incongruent	no	2	euler_3_EI2	EIA	dogs ∩ animals = ∅	robots ∩ animals ≠ ∅	"dogs:                   -------
+animals:                              --------"	"robots:                   -----x----
+animals:                     --x---------"
+Some birds are sparrows. All birds are stones.	No stones are sparrows.	contradiction	incongruent	no	3	euler_7_IA3	IAE	birds ∩ sparrows ≠ ∅	birds ⊆ stones	"birds:                    -----x----
+sparrows:                    --x---------"	"birds:                             ------
+stones:                     ---------------"
+All ghosts are students. Some ghosts are human beings.	No human beings are students.	contradiction	incongruent	no	3	euler_12_AI3	AIE	ghosts ⊆ students	ghosts ∩ human beings ≠ ∅	"ghosts:                            ------
+students:                   ---------------"	"ghosts:                   -----x----
+human beings:                --x---------"
+All trumpets are instruments. Some string instruments are not instruments.	All string instruments are trumpets.	contradiction	incongruent	no	2	euler_14_AO2	AOA	trumpets ⊆ instruments	string instruments \ instruments ≠ ∅	"trumpets:                          ------
+instruments:                ---------------"	"string instruments:       --x-------
+instruments:                       -----------"
+No horses are students. All humans are horses.	Some humans are students.	contradiction	incongruent	no	1	euler_8_EA1	EAI	horses ∩ students = ∅	humans ⊆ horses	"horses:                 -------
+students:                             --------"	"humans:                            ------
+horses:                     ---------------"
+All birds are crocodiles. No crocodiles are crows.	Some crows are birds.	contradiction	incongruent	no	4	euler_6_AE4	AEI	birds ⊆ crocodiles	crocodiles ∩ crows = ∅	"birds:                             ------
+crocodiles:                 ---------------"	"crocodiles:             -------
+crows:                                --------"
+Some crocodiles are birds. All crocodiles are crows.	No crows are birds.	contradiction	incongruent	no	3	euler_6_IA3	IAE	crocodiles ∩ birds ≠ ∅	crocodiles ⊆ crows	"crocodiles:               -----x----
+birds:                       --x---------"	"crocodiles:                        ------
+crows:                      ---------------"
+All robots are comodities. No comodities are machines.	Some machines are robots.	contradiction	incongruent	no	4	euler_4_AE4	AEI	robots ⊆ comodities	comodities ∩ machines = ∅	"robots:                            ------
+comodities:                 ---------------"	"comodities:             -------
+machines:                             --------"
+All horses are students. All humans are horses.	Some humans are not students.	contradiction	incongruent	no	1	euler_8_AA1	AAO	horses ⊆ students	humans ⊆ horses	"horses:                            ------
+students:                   ---------------"	"humans:                            ------
+horses:                     ---------------"
+No students are ghosts. All human beings are ghosts.	Some human beings are students.	contradiction	incongruent	no	2	euler_12_EA2	EAI	students ∩ ghosts = ∅	human beings ⊆ ghosts	"students:               -------
+ghosts:                               --------"	"human beings:                      ------
+ghosts:                     ---------------"
+No students are ghosts. Some ghosts are human beings.	All human beings are students.	contradiction	incongruent	no	4	euler_12_EI4	EIA	students ∩ ghosts = ∅	ghosts ∩ human beings ≠ ∅	"students:               -------
+ghosts:                               --------"	"ghosts:                   -----x----
+human beings:                --x---------"
+All animals are dogs. All robots are animals.	Some robots are not dogs.	contradiction	incongruent	no	1	euler_3_AA1	AAO	animals ⊆ dogs	robots ⊆ animals	"animals:                           ------
+dogs:                       ---------------"	"robots:                            ------
+animals:                    ---------------"
+All trees are plants. No living things are plants.	Some living things are trees.	contradiction	incongruent	no	2	euler_13_AE2	AEI	trees ⊆ plants	living things ∩ plants = ∅	"trees:                             ------
+plants:                     ---------------"	"living things:          -------
+plants:                               --------"
+All plants are tomatoes. Some animals are plants.	No animals are tomatoes.	contradiction	incongruent	no	1	euler_11_AI1	AIE	plants ⊆ tomatoes	animals ∩ plants ≠ ∅	"plants:                            ------
+tomatoes:                   ---------------"	"animals:                  -----x----
+plants:                      --x---------"
+All birds are crocodiles. No crows are crocodiles.	Some crows are birds.	contradiction	incongruent	no	2	euler_6_AE2	AEI	birds ⊆ crocodiles	crows ∩ crocodiles = ∅	"birds:                             ------
+crocodiles:                 ---------------"	"crows:                  -------
+crocodiles:                           --------"
+All crocodiles are birds. Some crocodiles are crows.	Some crows are birds.	entailment	incongruent	no	3	euler_6_AI3	AII	crocodiles ⊆ birds	crocodiles ∩ crows ≠ ∅	"crocodiles:                        ------
+birds:                      ---------------"	"crocodiles:               -----x----
+crows:                       --x---------"
+No liquid are metals. Some liquid are stones.	Some stones are not metals.	entailment	incongruent	no	3	euler_18_EI3	EIO	liquid ∩ metals = ∅	liquid ∩ stones ≠ ∅	"liquid:                 -------
+metals:                               --------"	"liquid:                   -----x----
+stones:                      --x---------"
+No metals are water. Some iron are water.	Some iron are not metals.	entailment	incongruent	no	2	euler_19_EI2	EIO	metals ∩ water = ∅	iron ∩ water ≠ ∅	"metals:                 -------
+water:                                --------"	"iron:                     -----x----
+water:                       --x---------"
+No baseball players are athletes. Some human beings are athletes.	Some human beings are not baseball players.	entailment	incongruent	no	2	euler_10_EI2	EIO	baseball players ∩ athletes = ∅	human beings ∩ athletes ≠ ∅	"baseball players:       -------
+athletes:                             --------"	"human beings:             -----x----
+athletes:                    --x---------"
+All athletes are baseball players. All human beings are athletes.	All human beings are baseball players.	entailment	incongruent	no	1	euler_10_AA1	AAA	athletes ⊆ baseball players	human beings ⊆ athletes	"athletes:                          ------
+baseball players:           ---------------"	"human beings:                      ------
+athletes:                   ---------------"
+No sand are metals. All air are sand.	No air are metals.	entailment	incongruent	no	1	euler_5_EA1	EAE	sand ∩ metals = ∅	air ⊆ sand	"sand:                   -------
+metals:                               --------"	"air:                               ------
+sand:                       ---------------"
+No dogs are animals. Some robots are animals.	Some robots are not dogs.	entailment	incongruent	no	2	euler_3_EI2	EIO	dogs ∩ animals = ∅	robots ∩ animals ≠ ∅	"dogs:                   -------
+animals:                              --------"	"robots:                   -----x----
+animals:                     --x---------"
+No students are ghosts. Some ghosts are human beings.	Some human beings are not students.	entailment	incongruent	no	4	euler_12_EI4	EIO	students ∩ ghosts = ∅	ghosts ∩ human beings ≠ ∅	"students:               -------
+ghosts:                               --------"	"ghosts:                   -----x----
+human beings:                --x---------"
+All trees are plants. No living things are plants.	No living things are trees.	entailment	incongruent	no	2	euler_13_AE2	AEE	trees ⊆ plants	living things ∩ plants = ∅	"trees:                             ------
+plants:                     ---------------"	"living things:          -------
+plants:                               --------"
+No wicked people are human beings. All thieves are human beings.	No thieves are wicked people.	entailment	incongruent	no	2	euler_21_EA2	EAE	wicked people ∩ human beings = ∅	thieves ⊆ human beings	"wicked people:          -------
+human beings:                         --------"	"thieves:                           ------
+human beings:               ---------------"
+Some sand are not metals. All sand are air.	Some air are not metals.	entailment	incongruent	no	3	euler_5_OA3	OAO	sand \ metals ≠ ∅	sand ⊆ air	"sand:                     --x-------
+metals:                            -----------"	"sand:                              ------
+air:                        ---------------"
+All vegetables are tomatoes. No plants are tomatoes.	No plants are vegetables.	entailment	incongruent	no	2	euler_20_AE2	AEE	vegetables ⊆ tomatoes	plants ∩ tomatoes = ∅	"vegetables:                        ------
+tomatoes:                   ---------------"	"plants:                 -------
+tomatoes:                             --------"
+No vegetables are tomatoes. All plants are tomatoes.	No plants are vegetables.	entailment	incongruent	no	2	euler_20_EA2	EAE	vegetables ∩ tomatoes = ∅	plants ⊆ tomatoes	"vegetables:             -------
+tomatoes:                             --------"	"plants:                            ------
+tomatoes:                   ---------------"
+Some birds are pigeons. All birds are cats.	Some cats are pigeons.	entailment	incongruent	no	3	euler_9_IA3	IAI	birds ∩ pigeons ≠ ∅	birds ⊆ cats	"birds:                    -----x----
+pigeons:                     --x---------"	"birds:                             ------
+cats:                       ---------------"
+Some human beings are wicked people. All human beings are thieves.	Some thieves are wicked people.	entailment	incongruent	no	3	euler_21_IA3	IAI	human beings ∩ wicked people ≠ ∅	human beings ⊆ thieves	"human beings:             -----x----
+wicked people:               --x---------"	"human beings:                      ------
+thieves:                    ---------------"
+All animals are dogs. All robots are animals.	All robots are dogs.	entailment	incongruent	no	1	euler_3_AA1	AAA	animals ⊆ dogs	robots ⊆ animals	"animals:                           ------
+dogs:                       ---------------"	"robots:                            ------
+animals:                    ---------------"
+All robots are comodities. No comodities are machines.	No machines are robots.	entailment	incongruent	no	4	euler_4_AE4	AEE	robots ⊆ comodities	comodities ∩ machines = ∅	"robots:                            ------
+comodities:                 ---------------"	"comodities:             -------
+machines:                             --------"
+No tomatoes are plants. Some plants are animals.	Some animals are not tomatoes.	entailment	incongruent	no	4	euler_11_EI4	EIO	tomatoes ∩ plants = ∅	plants ∩ animals ≠ ∅	"tomatoes:               -------
+plants:                               --------"	"plants:                   -----x----
+animals:                     --x---------"
+All ghosts are students. Some ghosts are human beings.	Some human beings are students.	entailment	incongruent	no	3	euler_12_AI3	AII	ghosts ⊆ students	ghosts ∩ human beings ≠ ∅	"ghosts:                            ------
+students:                   ---------------"	"ghosts:                   -----x----
+human beings:                --x---------"
+No crocodiles are birds. Some crocodiles are crows.	Some crows are not birds.	entailment	incongruent	no	3	euler_6_EI3	EIO	crocodiles ∩ birds = ∅	crocodiles ∩ crows ≠ ∅	"crocodiles:             -------
+birds:                                --------"	"crocodiles:               -----x----
+crows:                       --x---------"
+No beer are liquor. All drink are liquor.	No drink are beer.	entailment	incongruent	no	2	euler_17_EA2	EAE	beer ∩ liquor = ∅	drink ⊆ liquor	"beer:                   -------
+liquor:                               --------"	"drink:                             ------
+liquor:                     ---------------"
+No human beings are mammals. All horses are mammals.	No horses are human beings.	entailment	incongruent	no	2	euler_15_EA2	EAE	human beings ∩ mammals = ∅	horses ⊆ mammals	"human beings:           -------
+mammals:                              --------"	"horses:                            ------
+mammals:                    ---------------"
+All students are horses. No humans are horses.	No humans are students.	entailment	incongruent	no	2	euler_8_AE2	AEE	students ⊆ horses	humans ∩ horses = ∅	"students:                          ------
+horses:                     ---------------"	"humans:                 -------
+horses:                               --------"
+All birds are crocodiles. No crows are crocodiles.	No crows are birds.	entailment	incongruent	no	2	euler_6_AE2	AEE	birds ⊆ crocodiles	crows ∩ crocodiles = ∅	"birds:                             ------
+crocodiles:                 ---------------"	"crows:                  -------
+crocodiles:                           --------"
+No tuna are shark. All fish are shark.	No fish are tuna.	entailment	incongruent	no	2	euler_22_EA2	EAE	tuna ∩ shark = ∅	fish ⊆ shark	"tuna:                   -------
+shark:                                --------"	"fish:                              ------
+shark:                      ---------------"
+All horses are students. All humans are horses.	All humans are students.	entailment	incongruent	no	1	euler_8_AA1	AAA	horses ⊆ students	humans ⊆ horses	"horses:                            ------
+students:                   ---------------"	"humans:                            ------
+horses:                     ---------------"
+All plants are trees. All living things are plants.	All living things are trees.	entailment	incongruent	no	1	euler_13_AA1	AAA	plants ⊆ trees	living things ⊆ plants	"plants:                            ------
+trees:                      ---------------"	"living things:                     ------
+plants:                     ---------------"
+Some tuna are shark. All shark are fish.	Some fish are tuna.	entailment	incongruent	no	4	euler_22_IA4	IAI	tuna ∩ shark ≠ ∅	shark ⊆ fish	"tuna:                     -----x----
+shark:                       --x---------"	"shark:                             ------
+fish:                       ---------------"
+All foods are fruits. Some stones are foods.	Some stones are fruits.	entailment	incongruent	no	1	euler_2_AI1	AII	foods ⊆ fruits	stones ∩ foods ≠ ∅	"foods:                             ------
+fruits:                     ---------------"	"stones:                   -----x----
+foods:                       --x---------"
+Some crocodiles are birds. All crocodiles are crows.	Some crows are birds.	entailment	incongruent	no	3	euler_6_IA3	IAI	crocodiles ∩ birds ≠ ∅	crocodiles ⊆ crows	"crocodiles:               -----x----
+birds:                       --x---------"	"crocodiles:                        ------
+crows:                      ---------------"
+No water are metals. All iron are water.	No iron are metals.	entailment	incongruent	no	1	euler_19_EA1	EAE	water ∩ metals = ∅	iron ⊆ water	"water:                  -------
+metals:                               --------"	"iron:                              ------
+water:                      ---------------"
+No horses are students. All humans are horses.	No humans are students.	entailment	incongruent	no	1	euler_8_EA1	EAE	horses ∩ students = ∅	humans ⊆ horses	"horses:                 -------
+students:                             --------"	"humans:                            ------
+horses:                     ---------------"
+No human beings are wicked people. Some thieves are human beings.	Some thieves are not wicked people.	entailment	incongruent	no	1	euler_21_EI1	EIO	human beings ∩ wicked people = ∅	thieves ∩ human beings ≠ ∅	"human beings:           -------
+wicked people:                        --------"	"thieves:                  -----x----
+human beings:                --x---------"
+No metals are sand. All air are sand.	No air are metals.	entailment	incongruent	no	2	euler_5_EA2	EAE	metals ∩ sand = ∅	air ⊆ sand	"metals:                 -------
+sand:                                 --------"	"air:                               ------
+sand:                       ---------------"
+All birds are crocodiles. No crocodiles are crows.	No crows are birds.	entailment	incongruent	no	4	euler_6_AE4	AEE	birds ⊆ crocodiles	crocodiles ∩ crows = ∅	"birds:                             ------
+crocodiles:                 ---------------"	"crocodiles:             -------
+crows:                                --------"
+Some birds are sparrows. All birds are stones.	Some stones are sparrows.	entailment	incongruent	no	3	euler_7_IA3	IAI	birds ∩ sparrows ≠ ∅	birds ⊆ stones	"birds:                    -----x----
+sparrows:                    --x---------"	"birds:                             ------
+stones:                     ---------------"
+All plants are trees. Some living things are plants.	Some living things are trees.	entailment	incongruent	no	1	euler_13_AI1	AII	plants ⊆ trees	living things ∩ plants ≠ ∅	"plants:                            ------
+trees:                      ---------------"	"living things:            -----x----
+plants:                      --x---------"
+No pigeons are birds. Some cats are birds.	Some cats are not pigeons.	entailment	incongruent	no	2	euler_9_EI2	EIO	pigeons ∩ birds = ∅	cats ∩ birds ≠ ∅	"pigeons:                -------
+birds:                                --------"	"cats:                     -----x----
+birds:                       --x---------"
+All trumpets are instruments. Some string instruments are not instruments.	Some string instruments are not trumpets.	entailment	incongruent	no	2	euler_14_AO2	AOO	trumpets ⊆ instruments	string instruments \ instruments ≠ ∅	"trumpets:                          ------
+instruments:                ---------------"	"string instruments:       --x-------
+instruments:                       -----------"
+No students are ghosts. All human beings are ghosts.	No human beings are students.	entailment	incongruent	no	2	euler_12_EA2	EAE	students ∩ ghosts = ∅	human beings ⊆ ghosts	"students:               -------
+ghosts:                               --------"	"human beings:                      ------
+ghosts:                     ---------------"
+All crocodiles are birds. Some crocodiles are crows.	Some crows are not birds.	neutral	incongruent	no	3	euler_6_AI3	AIO	crocodiles ⊆ birds	crocodiles ∩ crows ≠ ∅	"crocodiles:                        ------
+birds:                      ---------------"	"crocodiles:               -----x----
+crows:                       --x---------"
+All comodities are robots. All comodities are machines.	Some machines are not robots.	neutral	incongruent	no	3	euler_4_AA3	AAO	comodities ⊆ robots	comodities ⊆ machines	"comodities:                        ------
+robots:                     ---------------"	"comodities:                        ------
+machines:                   ---------------"
+Some dogs are not animals. All animals are robots.	Some robots are not dogs.	neutral	incongruent	yes	4	euler_3_OA4	OAO	dogs \ animals ≠ ∅	animals ⊆ robots	"dogs:                     --x-------
+animals:                           -----------"	"animals:                           ------
+robots:                     ---------------"
+All trees are plants. Some plants are not living things.	Some living things are trees.	neutral	incongruent	no	4	euler_13_AO4	AOI	trees ⊆ plants	plants \ living things ≠ ∅	"trees:                             ------
+plants:                     ---------------"	"plants:                   --x-------
+living things:                     -----------"
+No human beings are mammals. All horses are mammals.	All horses are human beings.	neutral	incongruent	no	2	euler_15_EA2	EAA	human beings ∩ mammals = ∅	horses ⊆ mammals	"human beings:           -------
+mammals:                              --------"	"horses:                            ------
+mammals:                    ---------------"
+All vegetables are tomatoes. Some tomatoes are not plants.	No plants are vegetables.	neutral	incongruent	no	4	euler_20_AO4	AOE	vegetables ⊆ tomatoes	tomatoes \ plants ≠ ∅	"vegetables:                        ------
+tomatoes:                   ---------------"	"tomatoes:                 --x-------
+plants:                            -----------"
+All tomatoes are plants. All plants are animals.	No animals are tomatoes.	neutral	incongruent	no	4	euler_11_AA4	AAE	tomatoes ⊆ plants	plants ⊆ animals	"tomatoes:                          ------
+plants:                     ---------------"	"plants:                            ------
+animals:                    ---------------"
+Some tomatoes are plants. All animals are plants.	No animals are tomatoes.	neutral	incongruent	no	2	euler_11_IA2	IAE	tomatoes ∩ plants ≠ ∅	animals ⊆ plants	"tomatoes:                 -----x----
+plants:                      --x---------"	"animals:                           ------
+plants:                     ---------------"
+Some students are not horses. All humans are horses.	Some humans are students.	neutral	incongruent	no	2	euler_8_OA2	OAI	students \ horses ≠ ∅	humans ⊆ horses	"students:                 --x-------
+horses:                            -----------"	"humans:                            ------
+horses:                     ---------------"
+Some trees are plants. All living things are plants.	Some living things are trees.	neutral	incongruent	yes	2	euler_13_IA2	IAI	trees ∩ plants ≠ ∅	living things ⊆ plants	"trees:                    -----x----
+plants:                      --x---------"	"living things:                     ------
+plants:                     ---------------"
+All vegetables are tomatoes. No plants are tomatoes.	Some plants are not vegetables.	neutral	incongruent	no	2	euler_20_AE2	AEO	vegetables ⊆ tomatoes	plants ∩ tomatoes = ∅	"vegetables:                        ------
+tomatoes:                   ---------------"	"plants:                 -------
+tomatoes:                             --------"
+All tomatoes are plants. Some plants are animals.	Some animals are not tomatoes.	neutral	incongruent	no	4	euler_11_AI4	AIO	tomatoes ⊆ plants	plants ∩ animals ≠ ∅	"tomatoes:                          ------
+plants:                     ---------------"	"plants:                   -----x----
+animals:                     --x---------"
+Some tuna are shark. All fish are shark.	Some fish are not tuna.	neutral	incongruent	no	2	euler_22_IA2	IAO	tuna ∩ shark ≠ ∅	fish ⊆ shark	"tuna:                     -----x----
+shark:                       --x---------"	"fish:                              ------
+shark:                      ---------------"
+No baseball players are athletes. All athletes are human beings.	No human beings are baseball players.	neutral	incongruent	yes	4	euler_10_EA4	EAE	baseball players ∩ athletes = ∅	athletes ⊆ human beings	"baseball players:       -------
+athletes:                             --------"	"athletes:                          ------
+human beings:               ---------------"
+No pigeons are birds. Some cats are birds.	No cats are pigeons.	neutral	incongruent	no	2	euler_9_EI2	EIE	pigeons ∩ birds = ∅	cats ∩ birds ≠ ∅	"pigeons:                -------
+birds:                                --------"	"cats:                     -----x----
+birds:                       --x---------"
+No tomatoes are plants. Some plants are animals.	Some animals are tomatoes.	neutral	incongruent	no	4	euler_11_EI4	EII	tomatoes ∩ plants = ∅	plants ∩ animals ≠ ∅	"tomatoes:               -------
+plants:                               --------"	"plants:                   -----x----
+animals:                     --x---------"
+No human beings are mammals. All horses are mammals.	Some horses are not human beings.	neutral	incongruent	no	2	euler_15_EA2	EAO	human beings ∩ mammals = ∅	horses ⊆ mammals	"human beings:           -------
+mammals:                              --------"	"horses:                            ------
+mammals:                    ---------------"
+Some females are males. All students are males.	Some students are females.	neutral	incongruent	yes	2	euler_16_IA2	IAI	females ∩ males ≠ ∅	students ⊆ males	"females:                  -----x----
+males:                       --x---------"	"students:                          ------
+males:                      ---------------"
+Some trees are not plants. All plants are living things.	No living things are trees.	neutral	incongruent	no	4	euler_13_OA4	OAE	trees \ plants ≠ ∅	plants ⊆ living things	"trees:                    --x-------
+plants:                            -----------"	"plants:                            ------
+living things:              ---------------"
+All ghosts are students. No ghosts are human beings.	Some human beings are not students.	neutral	incongruent	no	3	euler_12_AE3	AEO	ghosts ⊆ students	ghosts ∩ human beings = ∅	"ghosts:                            ------
+students:                   ---------------"	"ghosts:                 -------
+human beings:                         --------"
+All students are horses. No humans are horses.	Some humans are not students.	neutral	incongruent	no	2	euler_8_AE2	AEO	students ⊆ horses	humans ∩ horses = ∅	"students:                          ------
+horses:                     ---------------"	"humans:                 -------
+horses:                               --------"
+All water are metals. No water are iron.	All iron are metals.	neutral	incongruent	no	3	euler_19_AE3	AEA	water ⊆ metals	water ∩ iron = ∅	"water:                             ------
+metals:                     ---------------"	"water:                  -------
+iron:                                 --------"
+All students are horses. Some horses are not humans.	Some humans are not students.	neutral	incongruent	yes	4	euler_8_AO4	AOO	students ⊆ horses	horses \ humans ≠ ∅	"students:                          ------
+horses:                     ---------------"	"horses:                   --x-------
+humans:                            -----------"
+All trees are plants. Some plants are not living things.	All living things are trees.	neutral	incongruent	no	4	euler_13_AO4	AOA	trees ⊆ plants	plants \ living things ≠ ∅	"trees:                             ------
+plants:                     ---------------"	"plants:                   --x-------
+living things:                     -----------"
+No beer are liquor. All drink are liquor.	Some drink are not beer.	neutral	incongruent	no	2	euler_17_EA2	EAO	beer ∩ liquor = ∅	drink ⊆ liquor	"beer:                   -------
+liquor:                               --------"	"drink:                             ------
+liquor:                     ---------------"
+All fruits are foods. Some stones are foods.	Some stones are not fruits.	neutral	incongruent	no	2	euler_2_AI2	AIO	fruits ⊆ foods	stones ∩ foods ≠ ∅	"fruits:                            ------
+foods:                      ---------------"	"stones:                   -----x----
+foods:                       --x---------"
+All plants are tomatoes. Some animals are plants.	Some animals are not tomatoes.	neutral	incongruent	no	1	euler_11_AI1	AIO	plants ⊆ tomatoes	animals ∩ plants ≠ ∅	"plants:                            ------
+tomatoes:                   ---------------"	"animals:                  -----x----
+plants:                      --x---------"
+Some students are not horses. All humans are horses.	No humans are students.	neutral	incongruent	no	2	euler_8_OA2	OAE	students \ horses ≠ ∅	humans ⊆ horses	"students:                 --x-------
+horses:                            -----------"	"humans:                            ------
+horses:                     ---------------"
+No birds are sparrows. All birds are stones.	Some stones are not sparrows.	neutral	incongruent	no	3	euler_7_EA3	EAO	birds ∩ sparrows = ∅	birds ⊆ stones	"birds:                  -------
+sparrows:                             --------"	"birds:                             ------
+stones:                     ---------------"
+All animals are dogs. All robots are animals.	Some robots are dogs.	neutral	incongruent	no	1	euler_3_AA1	AAI	animals ⊆ dogs	robots ⊆ animals	"animals:                           ------
+dogs:                       ---------------"	"robots:                            ------
+animals:                    ---------------"
+No students are ghosts. All human beings are ghosts.	Some human beings are not students.	neutral	incongruent	no	2	euler_12_EA2	EAO	students ∩ ghosts = ∅	human beings ⊆ ghosts	"students:               -------
+ghosts:                               --------"	"human beings:                      ------
+ghosts:                     ---------------"
+No metals are water. Some iron are water.	No iron are metals.	neutral	incongruent	no	2	euler_19_EI2	EIE	metals ∩ water = ∅	iron ∩ water ≠ ∅	"metals:                 -------
+water:                                --------"	"iron:                     -----x----
+water:                       --x---------"
+All comodities are robots. All comodities are machines.	Some machines are robots.	neutral	incongruent	no	3	euler_4_AA3	AAI	comodities ⊆ robots	comodities ⊆ machines	"comodities:                        ------
+robots:                     ---------------"	"comodities:                        ------
+machines:                   ---------------"
+All tomatoes are vegetables. Some tomatoes are not plants.	All plants are vegetables.	neutral	incongruent	no	3	euler_20_AO3	AOA	tomatoes ⊆ vegetables	tomatoes \ plants ≠ ∅	"tomatoes:                          ------
+vegetables:                 ---------------"	"tomatoes:                 --x-------
+plants:                            -----------"
+All ghosts are students. Some ghosts are human beings.	Some human beings are not students.	neutral	incongruent	no	3	euler_12_AI3	AIO	ghosts ⊆ students	ghosts ∩ human beings ≠ ∅	"ghosts:                            ------
+students:                   ---------------"	"ghosts:                   -----x----
+human beings:                --x---------"
+All students are horses. No humans are horses.	All humans are students.	neutral	incongruent	no	2	euler_8_AE2	AEA	students ⊆ horses	humans ∩ horses = ∅	"students:                          ------
+horses:                     ---------------"	"humans:                 -------
+horses:                               --------"
+All dogs are animals. All robots are animals.	Some robots are dogs.	neutral	incongruent	no	2	euler_3_AA2	AAI	dogs ⊆ animals	robots ⊆ animals	"dogs:                              ------
+animals:                    ---------------"	"robots:                            ------
+animals:                    ---------------"
+All ghosts are students. No human beings are ghosts.	Some human beings are students.	neutral	incongruent	no	1	euler_12_AE1	AEI	ghosts ⊆ students	human beings ∩ ghosts = ∅	"ghosts:                            ------
+students:                   ---------------"	"human beings:           -------
+ghosts:                               --------"
+All athletes are baseball players. All human beings are athletes.	No human beings are baseball players.	neutral	incongruent	no	1	euler_10_AA1	AAE	athletes ⊆ baseball players	human beings ⊆ athletes	"athletes:                          ------
+baseball players:           ---------------"	"human beings:                      ------
+athletes:                   ---------------"
+Some tomatoes are not plants. All plants are animals.	Some animals are tomatoes.	neutral	incongruent	no	4	euler_11_OA4	OAI	tomatoes \ plants ≠ ∅	plants ⊆ animals	"tomatoes:                 --x-------
+plants:                            -----------"	"plants:                            ------
+animals:                    ---------------"
